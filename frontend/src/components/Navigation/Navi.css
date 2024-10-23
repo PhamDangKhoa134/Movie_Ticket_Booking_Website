@@ -1,0 +1,13 @@
+.navbar-nav .nav-link {
+    font-size: 1.2rem;
+    margin-left: 10px;
+  }
+  
+  .navbar-brand img {
+    max-height: 50px; /* Điều chỉnh kích thước logo */
+  }
+  
+  button {
+    font-size: 1rem;
+  }
+  

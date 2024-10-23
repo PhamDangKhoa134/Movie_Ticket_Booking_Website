@@ -1,0 +1,37 @@
+.containerdiv{
+    background-color: #0B0D13;
+}
+
+.container{
+    background-color: #0B0D13;
+}
+
+.text-center{
+    color: #FFFFFF;
+}
+
+.row {
+    background-color: #10141B;
+}
+
+.card {
+    height: 100%; /* Đảm bảo các card có chiều cao đồng đều */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: #10141B;
+}
+
+.card h5 {
+    color: #FFFFFF;
+}
+
+.card-img-top {
+    height: 250px;
+    object-fit: cover;
+    transition: transform 0.3s ease;
+}
+
+.card-img-top:hover {
+    transform: scale(1.1); /* Zoom in */
+}

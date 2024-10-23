@@ -1,0 +1,27 @@
+.bottom-container {
+    background-color: #0B0D13;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.icon-container {
+    margin-bottom: 10px;
+}
+
+.social-icon {
+    font-size: 30px;
+    margin: 0 10px;
+    color: #FFFFFF;
+    cursor: pointer;
+    transition: color 0.3s;
+}
+
+.social-icon:hover {
+    color: #007bff; /* Change color on hover */
+}
+
+.footer-text p {
+    margin: 5px 0;
+    font-size: 14px;
+    color: #FFFFFF;
+}
