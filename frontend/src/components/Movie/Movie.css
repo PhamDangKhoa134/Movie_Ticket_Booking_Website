@@ -1,0 +1,82 @@
+.movie-details {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    color: #fff;
+    display: flex;
+    align-items: flex-start; /* Change this from center to flex-start */
+    overflow: hidden;
+    font-family: Arial, sans-serif;
+}
+
+.background-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 70vh;
+    justify-content: center;
+    overflow: hidden;
+}
+
+.background-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    filter: brightness(0.3); /* Darkens the background image */
+}
+
+.content-wrapper {
+    z-index: 1;
+    display: flex;
+    align-items: flex-start; /* Align items to the top */
+    max-width: 1200px;
+    padding: 20px;
+    border-radius: 10px;
+    margin: 0 auto;
+    margin-top: 30px;
+}
+
+.poster {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    margin-right: 20px;
+}
+
+.poster img {
+    width: 100%;
+    max-width: 300px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.6);
+}
+
+.info {
+    flex: 2;
+    padding: 20px;
+}
+
+.info h1 {
+    font-size: 2rem;
+    margin-bottom: 10px;
+}
+
+.info p {
+    margin: 5px 0;
+    font-size: 1rem;
+}
+
+.censor-info {
+    color: #ff6347; /* Highlight censor information in red */
+    font-weight: bold;
+}
+
+.details-inline {
+    display: flex;
+    gap: 20px; /* Adjust spacing as needed */
+    margin-bottom: 10px;
+}
+
+.details-inline p {
+    margin: 0;
+}

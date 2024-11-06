@@ -1,0 +1,16 @@
+C:\TaiLieu\QLDA\Movie_Ticket_Booking_Website\backend\Services\Cinema\Cinema.Domain\bin\Debug\net8.0\Cinema.Domain.deps.json
+C:\TaiLieu\QLDA\Movie_Ticket_Booking_Website\backend\Services\Cinema\Cinema.Domain\bin\Debug\net8.0\Cinema.Domain.dll
+C:\TaiLieu\QLDA\Movie_Ticket_Booking_Website\backend\Services\Cinema\Cinema.Domain\bin\Debug\net8.0\Cinema.Domain.pdb
+C:\TaiLieu\QLDA\Movie_Ticket_Booking_Website\backend\Services\Cinema\Cinema.Domain\obj\Debug\net8.0\Cinema.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\TaiLieu\QLDA\Movie_Ticket_Booking_Website\backend\Services\Cinema\Cinema.Domain\obj\Debug\net8.0\Cinema.Domain.AssemblyInfoInputs.cache
+C:\TaiLieu\QLDA\Movie_Ticket_Booking_Website\backend\Services\Cinema\Cinema.Domain\obj\Debug\net8.0\Cinema.Domain.AssemblyInfo.cs
+C:\TaiLieu\QLDA\Movie_Ticket_Booking_Website\backend\Services\Cinema\Cinema.Domain\obj\Debug\net8.0\Cinema.Domain.csproj.CoreCompileInputs.cache
+C:\TaiLieu\QLDA\Movie_Ticket_Booking_Website\backend\Services\Cinema\Cinema.Domain\obj\Debug\net8.0\Cinema.Domain.sourcelink.json
+C:\TaiLieu\QLDA\Movie_Ticket_Booking_Website\backend\Services\Cinema\Cinema.Domain\obj\Debug\net8.0\Cinema.Domain.dll
+C:\TaiLieu\QLDA\Movie_Ticket_Booking_Website\backend\Services\Cinema\Cinema.Domain\obj\Debug\net8.0\refint\Cinema.Domain.dll
+C:\TaiLieu\QLDA\Movie_Ticket_Booking_Website\backend\Services\Cinema\Cinema.Domain\obj\Debug\net8.0\Cinema.Domain.pdb
+C:\TaiLieu\QLDA\Movie_Ticket_Booking_Website\backend\Services\Cinema\Cinema.Domain\obj\Debug\net8.0\ref\Cinema.Domain.dll
+C:\TaiLieu\QLDA\Movie_Ticket_Booking_Website\backend\Services\Cinema\Cinema.Domain\bin\Debug\net8.0\Contstant.dll
+C:\TaiLieu\QLDA\Movie_Ticket_Booking_Website\backend\Services\Cinema\Cinema.Domain\bin\Debug\net8.0\Contstant.pdb
+C:\TaiLieu\QLDA\Movie_Ticket_Booking_Website\backend\Services\Cinema\Cinema.Domain\obj\Debug\net8.0\Cinema.Domain.csproj.AssemblyReference.cache
+C:\TaiLieu\QLDA\Movie_Ticket_Booking_Website\backend\Services\Cinema\Cinema.Domain\obj\Debug\net8.0\Cinema.D.ADD64F76.Up2Date

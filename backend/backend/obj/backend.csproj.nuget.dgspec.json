@@ -1,0 +1,1384 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\TaiLieu\\QLDA\\Movie_Ticket_Booking_Website\\backend\\backend\\backend.csproj": {}
+  },
+  "projects": {
+    "C:\\TaiLieu\\QLDA\\Movie_Ticket_Booking_Website\\backend\\backend\\backend.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\TaiLieu\\QLDA\\Movie_Ticket_Booking_Website\\backend\\backend\\backend.csproj",
+        "projectName": "backend",
+        "projectPath": "C:\\TaiLieu\\QLDA\\Movie_Ticket_Booking_Website\\backend\\backend\\backend.csproj",
+        "packagesPath": "C:\\Users\\phamd\\.nuget\\packages\\",
+        "outputPath": "C:\\TaiLieu\\QLDA\\Movie_Ticket_Booking_Website\\backend\\backend\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\phamd\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "C:\\TaiLieu\\QLDA\\Movie_Ticket_Booking_Website\\backend\\Services\\Auth\\Auth.ApplicationService\\Auth.ApplicationService.csproj": {
+                "projectPath": "C:\\TaiLieu\\QLDA\\Movie_Ticket_Booking_Website\\backend\\Services\\Auth\\Auth.ApplicationService\\Auth.ApplicationService.csproj"
+              },
+              "C:\\TaiLieu\\QLDA\\Movie_Ticket_Booking_Website\\backend\\Services\\Auth\\Auth.Dtos\\Auth.Dtos.csproj": {
+                "projectPath": "C:\\TaiLieu\\QLDA\\Movie_Ticket_Booking_Website\\backend\\Services\\Auth\\Auth.Dtos\\Auth.Dtos.csproj"
+              },
+              "C:\\TaiLieu\\QLDA\\Movie_Ticket_Booking_Website\\backend\\Services\\Booking\\Booking.ApplicationService\\Booking.ApplicationService.csproj": {
+                "projectPath": "C:\\TaiLieu\\QLDA\\Movie_Ticket_Booking_Website\\backend\\Services\\Booking\\Booking.ApplicationService\\Booking.ApplicationService.csproj"
+              },
+              "C:\\TaiLieu\\QLDA\\Movie_Ticket_Booking_Website\\backend\\Services\\Booking\\Booking.Dtos\\Booking.Dtos.csproj": {
+                "projectPath": "C:\\TaiLieu\\QLDA\\Movie_Ticket_Booking_Website\\backend\\Services\\Booking\\Booking.Dtos\\Booking.Dtos.csproj"
+              },
+              "C:\\TaiLieu\\QLDA\\Movie_Ticket_Booking_Website\\backend\\Services\\Cinema\\Cinema.ApplicationService\\Cinema.ApplicationService.csproj": {
+                "projectPath": "C:\\TaiLieu\\QLDA\\Movie_Ticket_Booking_Website\\backend\\Services\\Cinema\\Cinema.ApplicationService\\Cinema.ApplicationService.csproj"
+              },
+              "C:\\TaiLieu\\QLDA\\Movie_Ticket_Booking_Website\\backend\\Services\\Cinema\\Cinema.Dtos\\Cinema.Dtos.csproj": {
+                "projectPath": "C:\\TaiLieu\\QLDA\\Movie_Ticket_Booking_Website\\backend\\Services\\Cinema\\Cinema.Dtos\\Cinema.Dtos.csproj"
+              },
+              "C:\\TaiLieu\\QLDA\\Movie_Ticket_Booking_Website\\backend\\Services\\Movie\\Movie.ApplicationService\\Movie.ApplicationService.csproj": {
+                "projectPath": "C:\\TaiLieu\\QLDA\\Movie_Ticket_Booking_Website\\backend\\Services\\Movie\\Movie.ApplicationService\\Movie.ApplicationService.csproj"
+              },
+              "C:\\TaiLieu\\QLDA\\Movie_Ticket_Booking_Website\\backend\\Services\\Movie\\Movie.Dtos\\Movie.Dtos.csproj": {
+                "projectPath": "C:\\TaiLieu\\QLDA\\Movie_Ticket_Booking_Website\\backend\\Services\\Movie\\Movie.Dtos\\Movie.Dtos.csproj"
+              },
+              "C:\\TaiLieu\\QLDA\\Movie_Ticket_Booking_Website\\backend\\Services\\Show\\Show.ApplicationService\\Show.ApplicationService.csproj": {
+                "projectPath": "C:\\TaiLieu\\QLDA\\Movie_Ticket_Booking_Website\\backend\\Services\\Show\\Show.ApplicationService\\Show.ApplicationService.csproj"
+              },
+              "C:\\TaiLieu\\QLDA\\Movie_Ticket_Booking_Website\\backend\\Services\\Show\\Show.Dtos\\Show.Dtos.csproj": {
+                "projectPath": "C:\\TaiLieu\\QLDA\\Movie_Ticket_Booking_Website\\backend\\Services\\Show\\Show.Dtos\\Show.Dtos.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "BCrypt.Net-Next": {
+              "target": "Package",
+              "version": "[4.0.3, )"
+            },
+            "Microsoft.AspNetCore.Identity": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[8.0.8, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[8.0.8, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[8.0.8, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[6.4.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.400/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\TaiLieu\\QLDA\\Movie_Ticket_Booking_Website\\backend\\Services\\Auth\\Auth.ApplicationService\\Auth.ApplicationService.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\TaiLieu\\QLDA\\Movie_Ticket_Booking_Website\\backend\\Services\\Auth\\Auth.ApplicationService\\Auth.ApplicationService.csproj",
+        "projectName": "Auth.ApplicationService",
+        "projectPath": "C:\\TaiLieu\\QLDA\\Movie_Ticket_Booking_Website\\backend\\Services\\Auth\\Auth.ApplicationService\\Auth.ApplicationService.csproj",
+        "packagesPath": "C:\\Users\\phamd\\.nuget\\packages\\",
+        "outputPath": "C:\\TaiLieu\\QLDA\\Movie_Ticket_Booking_Website\\backend\\Services\\Auth\\Auth.ApplicationService\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\phamd\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "C:\\TaiLieu\\QLDA\\Movie_Ticket_Booking_Website\\backend\\Services\\Auth\\Auth.Dtos\\Auth.Dtos.csproj": {
+                "projectPath": "C:\\TaiLieu\\QLDA\\Movie_Ticket_Booking_Website\\backend\\Services\\Auth\\Auth.Dtos\\Auth.Dtos.csproj"
+              },
+              "C:\\TaiLieu\\QLDA\\Movie_Ticket_Booking_Website\\backend\\Services\\Auth\\Auth.Infrastructure\\Auth.Infrastructure.csproj": {
+                "projectPath": "C:\\TaiLieu\\QLDA\\Movie_Ticket_Booking_Website\\backend\\Services\\Auth\\Auth.Infrastructure\\Auth.Infrastructure.csproj"
+              },
+              "C:\\TaiLieu\\QLDA\\Movie_Ticket_Booking_Website\\backend\\Services\\Shared\\Contstant\\Contstant.csproj": {
+                "projectPath": "C:\\TaiLieu\\QLDA\\Movie_Ticket_Booking_Website\\backend\\Services\\Shared\\Contstant\\Contstant.csproj"
+              },
+              "C:\\TaiLieu\\QLDA\\Movie_Ticket_Booking_Website\\backend\\Services\\Shared\\Shared.ApplicationService\\Shared.ApplicationService.csproj": {
+                "projectPath": "C:\\TaiLieu\\QLDA\\Movie_Ticket_Booking_Website\\backend\\Services\\Shared\\Shared.ApplicationService\\Shared.ApplicationService.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Mvc.Abstractions": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.400/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\TaiLieu\\QLDA\\Movie_Ticket_Booking_Website\\backend\\Services\\Auth\\Auth.Domain\\Auth.Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\TaiLieu\\QLDA\\Movie_Ticket_Booking_Website\\backend\\Services\\Auth\\Auth.Domain\\Auth.Domain.csproj",
+        "projectName": "Auth.Domain",
+        "projectPath": "C:\\TaiLieu\\QLDA\\Movie_Ticket_Booking_Website\\backend\\Services\\Auth\\Auth.Domain\\Auth.Domain.csproj",
+        "packagesPath": "C:\\Users\\phamd\\.nuget\\packages\\",
+        "outputPath": "C:\\TaiLieu\\QLDA\\Movie_Ticket_Booking_Website\\backend\\Services\\Auth\\Auth.Domain\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\phamd\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "C:\\TaiLieu\\QLDA\\Movie_Ticket_Booking_Website\\backend\\Services\\Shared\\Contstant\\Contstant.csproj": {
+                "projectPath": "C:\\TaiLieu\\QLDA\\Movie_Ticket_Booking_Website\\backend\\Services\\Shared\\Contstant\\Contstant.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.400/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\TaiLieu\\QLDA\\Movie_Ticket_Booking_Website\\backend\\Services\\Auth\\Auth.Dtos\\Auth.Dtos.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\TaiLieu\\QLDA\\Movie_Ticket_Booking_Website\\backend\\Services\\Auth\\Auth.Dtos\\Auth.Dtos.csproj",
+        "projectName": "Auth.Dtos",
+        "projectPath": "C:\\TaiLieu\\QLDA\\Movie_Ticket_Booking_Website\\backend\\Services\\Auth\\Auth.Dtos\\Auth.Dtos.csproj",
+        "packagesPath": "C:\\Users\\phamd\\.nuget\\packages\\",
+        "outputPath": "C:\\TaiLieu\\QLDA\\Movie_Ticket_Booking_Website\\backend\\Services\\Auth\\Auth.Dtos\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\phamd\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.400/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\TaiLieu\\QLDA\\Movie_Ticket_Booking_Website\\backend\\Services\\Auth\\Auth.Infrastructure\\Auth.Infrastructure.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\TaiLieu\\QLDA\\Movie_Ticket_Booking_Website\\backend\\Services\\Auth\\Auth.Infrastructure\\Auth.Infrastructure.csproj",
+        "projectName": "Auth.Infrastructure",
+        "projectPath": "C:\\TaiLieu\\QLDA\\Movie_Ticket_Booking_Website\\backend\\Services\\Auth\\Auth.Infrastructure\\Auth.Infrastructure.csproj",
+        "packagesPath": "C:\\Users\\phamd\\.nuget\\packages\\",
+        "outputPath": "C:\\TaiLieu\\QLDA\\Movie_Ticket_Booking_Website\\backend\\Services\\Auth\\Auth.Infrastructure\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\phamd\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "C:\\TaiLieu\\QLDA\\Movie_Ticket_Booking_Website\\backend\\Services\\Auth\\Auth.Domain\\Auth.Domain.csproj": {
+                "projectPath": "C:\\TaiLieu\\QLDA\\Movie_Ticket_Booking_Website\\backend\\Services\\Auth\\Auth.Domain\\Auth.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[8.0.8, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[8.0.8, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[8.0.8, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.400/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\TaiLieu\\QLDA\\Movie_Ticket_Booking_Website\\backend\\Services\\Booking\\Booking.ApplicationService\\Booking.ApplicationService.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\TaiLieu\\QLDA\\Movie_Ticket_Booking_Website\\backend\\Services\\Booking\\Booking.ApplicationService\\Booking.ApplicationService.csproj",
+        "projectName": "Booking.ApplicationService",
+        "projectPath": "C:\\TaiLieu\\QLDA\\Movie_Ticket_Booking_Website\\backend\\Services\\Booking\\Booking.ApplicationService\\Booking.ApplicationService.csproj",
+        "packagesPath": "C:\\Users\\phamd\\.nuget\\packages\\",
+        "outputPath": "C:\\TaiLieu\\QLDA\\Movie_Ticket_Booking_Website\\backend\\Services\\Booking\\Booking.ApplicationService\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\phamd\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.400/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\TaiLieu\\QLDA\\Movie_Ticket_Booking_Website\\backend\\Services\\Booking\\Booking.Dtos\\Booking.Dtos.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\TaiLieu\\QLDA\\Movie_Ticket_Booking_Website\\backend\\Services\\Booking\\Booking.Dtos\\Booking.Dtos.csproj",
+        "projectName": "Booking.Dtos",
+        "projectPath": "C:\\TaiLieu\\QLDA\\Movie_Ticket_Booking_Website\\backend\\Services\\Booking\\Booking.Dtos\\Booking.Dtos.csproj",
+        "packagesPath": "C:\\Users\\phamd\\.nuget\\packages\\",
+        "outputPath": "C:\\TaiLieu\\QLDA\\Movie_Ticket_Booking_Website\\backend\\Services\\Booking\\Booking.Dtos\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\phamd\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.400/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\TaiLieu\\QLDA\\Movie_Ticket_Booking_Website\\backend\\Services\\Cinema\\Cinema.ApplicationService\\Cinema.ApplicationService.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\TaiLieu\\QLDA\\Movie_Ticket_Booking_Website\\backend\\Services\\Cinema\\Cinema.ApplicationService\\Cinema.ApplicationService.csproj",
+        "projectName": "Cinema.ApplicationService",
+        "projectPath": "C:\\TaiLieu\\QLDA\\Movie_Ticket_Booking_Website\\backend\\Services\\Cinema\\Cinema.ApplicationService\\Cinema.ApplicationService.csproj",
+        "packagesPath": "C:\\Users\\phamd\\.nuget\\packages\\",
+        "outputPath": "C:\\TaiLieu\\QLDA\\Movie_Ticket_Booking_Website\\backend\\Services\\Cinema\\Cinema.ApplicationService\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\phamd\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "C:\\TaiLieu\\QLDA\\Movie_Ticket_Booking_Website\\backend\\Services\\Cinema\\Cinema.Dtos\\Cinema.Dtos.csproj": {
+                "projectPath": "C:\\TaiLieu\\QLDA\\Movie_Ticket_Booking_Website\\backend\\Services\\Cinema\\Cinema.Dtos\\Cinema.Dtos.csproj"
+              },
+              "C:\\TaiLieu\\QLDA\\Movie_Ticket_Booking_Website\\backend\\Services\\Cinema\\Cinema.Infrastructure\\Cinema.Infrastructure.csproj": {
+                "projectPath": "C:\\TaiLieu\\QLDA\\Movie_Ticket_Booking_Website\\backend\\Services\\Cinema\\Cinema.Infrastructure\\Cinema.Infrastructure.csproj"
+              },
+              "C:\\TaiLieu\\QLDA\\Movie_Ticket_Booking_Website\\backend\\Services\\Shared\\Contstant\\Contstant.csproj": {
+                "projectPath": "C:\\TaiLieu\\QLDA\\Movie_Ticket_Booking_Website\\backend\\Services\\Shared\\Contstant\\Contstant.csproj"
+              },
+              "C:\\TaiLieu\\QLDA\\Movie_Ticket_Booking_Website\\backend\\Services\\Shared\\Shared.ApplicationService\\Shared.ApplicationService.csproj": {
+                "projectPath": "C:\\TaiLieu\\QLDA\\Movie_Ticket_Booking_Website\\backend\\Services\\Shared\\Shared.ApplicationService\\Shared.ApplicationService.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Mvc.Abstractions": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.400/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\TaiLieu\\QLDA\\Movie_Ticket_Booking_Website\\backend\\Services\\Cinema\\Cinema.Domain\\Cinema.Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\TaiLieu\\QLDA\\Movie_Ticket_Booking_Website\\backend\\Services\\Cinema\\Cinema.Domain\\Cinema.Domain.csproj",
+        "projectName": "Cinema.Domain",
+        "projectPath": "C:\\TaiLieu\\QLDA\\Movie_Ticket_Booking_Website\\backend\\Services\\Cinema\\Cinema.Domain\\Cinema.Domain.csproj",
+        "packagesPath": "C:\\Users\\phamd\\.nuget\\packages\\",
+        "outputPath": "C:\\TaiLieu\\QLDA\\Movie_Ticket_Booking_Website\\backend\\Services\\Cinema\\Cinema.Domain\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\phamd\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "C:\\TaiLieu\\QLDA\\Movie_Ticket_Booking_Website\\backend\\Services\\Shared\\Contstant\\Contstant.csproj": {
+                "projectPath": "C:\\TaiLieu\\QLDA\\Movie_Ticket_Booking_Website\\backend\\Services\\Shared\\Contstant\\Contstant.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.400/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\TaiLieu\\QLDA\\Movie_Ticket_Booking_Website\\backend\\Services\\Cinema\\Cinema.Dtos\\Cinema.Dtos.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\TaiLieu\\QLDA\\Movie_Ticket_Booking_Website\\backend\\Services\\Cinema\\Cinema.Dtos\\Cinema.Dtos.csproj",
+        "projectName": "Cinema.Dtos",
+        "projectPath": "C:\\TaiLieu\\QLDA\\Movie_Ticket_Booking_Website\\backend\\Services\\Cinema\\Cinema.Dtos\\Cinema.Dtos.csproj",
+        "packagesPath": "C:\\Users\\phamd\\.nuget\\packages\\",
+        "outputPath": "C:\\TaiLieu\\QLDA\\Movie_Ticket_Booking_Website\\backend\\Services\\Cinema\\Cinema.Dtos\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\phamd\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.400/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\TaiLieu\\QLDA\\Movie_Ticket_Booking_Website\\backend\\Services\\Cinema\\Cinema.Infrastructure\\Cinema.Infrastructure.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\TaiLieu\\QLDA\\Movie_Ticket_Booking_Website\\backend\\Services\\Cinema\\Cinema.Infrastructure\\Cinema.Infrastructure.csproj",
+        "projectName": "Cinema.Infrastructure",
+        "projectPath": "C:\\TaiLieu\\QLDA\\Movie_Ticket_Booking_Website\\backend\\Services\\Cinema\\Cinema.Infrastructure\\Cinema.Infrastructure.csproj",
+        "packagesPath": "C:\\Users\\phamd\\.nuget\\packages\\",
+        "outputPath": "C:\\TaiLieu\\QLDA\\Movie_Ticket_Booking_Website\\backend\\Services\\Cinema\\Cinema.Infrastructure\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\phamd\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "C:\\TaiLieu\\QLDA\\Movie_Ticket_Booking_Website\\backend\\Services\\Cinema\\Cinema.Domain\\Cinema.Domain.csproj": {
+                "projectPath": "C:\\TaiLieu\\QLDA\\Movie_Ticket_Booking_Website\\backend\\Services\\Cinema\\Cinema.Domain\\Cinema.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[8.0.8, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[8.0.8, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[8.0.8, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.400/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\TaiLieu\\QLDA\\Movie_Ticket_Booking_Website\\backend\\Services\\Movie\\Movie.ApplicationService\\Movie.ApplicationService.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\TaiLieu\\QLDA\\Movie_Ticket_Booking_Website\\backend\\Services\\Movie\\Movie.ApplicationService\\Movie.ApplicationService.csproj",
+        "projectName": "Movie.ApplicationService",
+        "projectPath": "C:\\TaiLieu\\QLDA\\Movie_Ticket_Booking_Website\\backend\\Services\\Movie\\Movie.ApplicationService\\Movie.ApplicationService.csproj",
+        "packagesPath": "C:\\Users\\phamd\\.nuget\\packages\\",
+        "outputPath": "C:\\TaiLieu\\QLDA\\Movie_Ticket_Booking_Website\\backend\\Services\\Movie\\Movie.ApplicationService\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\phamd\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "C:\\TaiLieu\\QLDA\\Movie_Ticket_Booking_Website\\backend\\Services\\Movie\\Movie.Dtos\\Movie.Dtos.csproj": {
+                "projectPath": "C:\\TaiLieu\\QLDA\\Movie_Ticket_Booking_Website\\backend\\Services\\Movie\\Movie.Dtos\\Movie.Dtos.csproj"
+              },
+              "C:\\TaiLieu\\QLDA\\Movie_Ticket_Booking_Website\\backend\\Services\\Movie\\Movie.Infrastructure\\Movie.Infrastructure.csproj": {
+                "projectPath": "C:\\TaiLieu\\QLDA\\Movie_Ticket_Booking_Website\\backend\\Services\\Movie\\Movie.Infrastructure\\Movie.Infrastructure.csproj"
+              },
+              "C:\\TaiLieu\\QLDA\\Movie_Ticket_Booking_Website\\backend\\Services\\Shared\\Contstant\\Contstant.csproj": {
+                "projectPath": "C:\\TaiLieu\\QLDA\\Movie_Ticket_Booking_Website\\backend\\Services\\Shared\\Contstant\\Contstant.csproj"
+              },
+              "C:\\TaiLieu\\QLDA\\Movie_Ticket_Booking_Website\\backend\\Services\\Shared\\Shared.ApplicationService\\Shared.ApplicationService.csproj": {
+                "projectPath": "C:\\TaiLieu\\QLDA\\Movie_Ticket_Booking_Website\\backend\\Services\\Shared\\Shared.ApplicationService\\Shared.ApplicationService.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Mvc.Abstractions": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.400/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\TaiLieu\\QLDA\\Movie_Ticket_Booking_Website\\backend\\Services\\Movie\\Movie.Dmain\\Movie.Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\TaiLieu\\QLDA\\Movie_Ticket_Booking_Website\\backend\\Services\\Movie\\Movie.Dmain\\Movie.Domain.csproj",
+        "projectName": "Movie.Domain",
+        "projectPath": "C:\\TaiLieu\\QLDA\\Movie_Ticket_Booking_Website\\backend\\Services\\Movie\\Movie.Dmain\\Movie.Domain.csproj",
+        "packagesPath": "C:\\Users\\phamd\\.nuget\\packages\\",
+        "outputPath": "C:\\TaiLieu\\QLDA\\Movie_Ticket_Booking_Website\\backend\\Services\\Movie\\Movie.Dmain\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\phamd\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "C:\\TaiLieu\\QLDA\\Movie_Ticket_Booking_Website\\backend\\Services\\Shared\\Contstant\\Contstant.csproj": {
+                "projectPath": "C:\\TaiLieu\\QLDA\\Movie_Ticket_Booking_Website\\backend\\Services\\Shared\\Contstant\\Contstant.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.400/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\TaiLieu\\QLDA\\Movie_Ticket_Booking_Website\\backend\\Services\\Movie\\Movie.Dtos\\Movie.Dtos.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\TaiLieu\\QLDA\\Movie_Ticket_Booking_Website\\backend\\Services\\Movie\\Movie.Dtos\\Movie.Dtos.csproj",
+        "projectName": "Movie.Dtos",
+        "projectPath": "C:\\TaiLieu\\QLDA\\Movie_Ticket_Booking_Website\\backend\\Services\\Movie\\Movie.Dtos\\Movie.Dtos.csproj",
+        "packagesPath": "C:\\Users\\phamd\\.nuget\\packages\\",
+        "outputPath": "C:\\TaiLieu\\QLDA\\Movie_Ticket_Booking_Website\\backend\\Services\\Movie\\Movie.Dtos\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\phamd\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Http": {
+              "target": "Package",
+              "version": "[2.2.2, )"
+            },
+            "Microsoft.AspNetCore.Http.Features": {
+              "target": "Package",
+              "version": "[5.0.17, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.400/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\TaiLieu\\QLDA\\Movie_Ticket_Booking_Website\\backend\\Services\\Movie\\Movie.Infrastructure\\Movie.Infrastructure.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\TaiLieu\\QLDA\\Movie_Ticket_Booking_Website\\backend\\Services\\Movie\\Movie.Infrastructure\\Movie.Infrastructure.csproj",
+        "projectName": "Movie.Infrastructure",
+        "projectPath": "C:\\TaiLieu\\QLDA\\Movie_Ticket_Booking_Website\\backend\\Services\\Movie\\Movie.Infrastructure\\Movie.Infrastructure.csproj",
+        "packagesPath": "C:\\Users\\phamd\\.nuget\\packages\\",
+        "outputPath": "C:\\TaiLieu\\QLDA\\Movie_Ticket_Booking_Website\\backend\\Services\\Movie\\Movie.Infrastructure\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\phamd\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "C:\\TaiLieu\\QLDA\\Movie_Ticket_Booking_Website\\backend\\Services\\Movie\\Movie.Dmain\\Movie.Domain.csproj": {
+                "projectPath": "C:\\TaiLieu\\QLDA\\Movie_Ticket_Booking_Website\\backend\\Services\\Movie\\Movie.Dmain\\Movie.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[8.0.8, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[8.0.8, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[8.0.8, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.400/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\TaiLieu\\QLDA\\Movie_Ticket_Booking_Website\\backend\\Services\\Shared\\Contstant\\Contstant.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\TaiLieu\\QLDA\\Movie_Ticket_Booking_Website\\backend\\Services\\Shared\\Contstant\\Contstant.csproj",
+        "projectName": "Contstant",
+        "projectPath": "C:\\TaiLieu\\QLDA\\Movie_Ticket_Booking_Website\\backend\\Services\\Shared\\Contstant\\Contstant.csproj",
+        "packagesPath": "C:\\Users\\phamd\\.nuget\\packages\\",
+        "outputPath": "C:\\TaiLieu\\QLDA\\Movie_Ticket_Booking_Website\\backend\\Services\\Shared\\Contstant\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\phamd\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.400/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\TaiLieu\\QLDA\\Movie_Ticket_Booking_Website\\backend\\Services\\Shared\\Shared.ApplicationService\\Shared.ApplicationService.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\TaiLieu\\QLDA\\Movie_Ticket_Booking_Website\\backend\\Services\\Shared\\Shared.ApplicationService\\Shared.ApplicationService.csproj",
+        "projectName": "Shared.ApplicationService",
+        "projectPath": "C:\\TaiLieu\\QLDA\\Movie_Ticket_Booking_Website\\backend\\Services\\Shared\\Shared.ApplicationService\\Shared.ApplicationService.csproj",
+        "packagesPath": "C:\\Users\\phamd\\.nuget\\packages\\",
+        "outputPath": "C:\\TaiLieu\\QLDA\\Movie_Ticket_Booking_Website\\backend\\Services\\Shared\\Shared.ApplicationService\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\phamd\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "C:\\TaiLieu\\QLDA\\Movie_Ticket_Booking_Website\\backend\\Services\\Movie\\Movie.Dmain\\Movie.Domain.csproj": {
+                "projectPath": "C:\\TaiLieu\\QLDA\\Movie_Ticket_Booking_Website\\backend\\Services\\Movie\\Movie.Dmain\\Movie.Domain.csproj"
+              },
+              "C:\\TaiLieu\\QLDA\\Movie_Ticket_Booking_Website\\backend\\Services\\Movie\\Movie.Dtos\\Movie.Dtos.csproj": {
+                "projectPath": "C:\\TaiLieu\\QLDA\\Movie_Ticket_Booking_Website\\backend\\Services\\Movie\\Movie.Dtos\\Movie.Dtos.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.400/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\TaiLieu\\QLDA\\Movie_Ticket_Booking_Website\\backend\\Services\\Show\\Show.ApplicationService\\Show.ApplicationService.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\TaiLieu\\QLDA\\Movie_Ticket_Booking_Website\\backend\\Services\\Show\\Show.ApplicationService\\Show.ApplicationService.csproj",
+        "projectName": "Show.ApplicationService",
+        "projectPath": "C:\\TaiLieu\\QLDA\\Movie_Ticket_Booking_Website\\backend\\Services\\Show\\Show.ApplicationService\\Show.ApplicationService.csproj",
+        "packagesPath": "C:\\Users\\phamd\\.nuget\\packages\\",
+        "outputPath": "C:\\TaiLieu\\QLDA\\Movie_Ticket_Booking_Website\\backend\\Services\\Show\\Show.ApplicationService\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\phamd\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.400/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\TaiLieu\\QLDA\\Movie_Ticket_Booking_Website\\backend\\Services\\Show\\Show.Dtos\\Show.Dtos.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\TaiLieu\\QLDA\\Movie_Ticket_Booking_Website\\backend\\Services\\Show\\Show.Dtos\\Show.Dtos.csproj",
+        "projectName": "Show.Dtos",
+        "projectPath": "C:\\TaiLieu\\QLDA\\Movie_Ticket_Booking_Website\\backend\\Services\\Show\\Show.Dtos\\Show.Dtos.csproj",
+        "packagesPath": "C:\\Users\\phamd\\.nuget\\packages\\",
+        "outputPath": "C:\\TaiLieu\\QLDA\\Movie_Ticket_Booking_Website\\backend\\Services\\Show\\Show.Dtos\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\phamd\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.400/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

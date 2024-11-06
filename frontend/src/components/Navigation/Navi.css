@@ -4,10 +4,9 @@
   }
   
   .navbar-brand img {
-    max-height: 50px; /* Điều chỉnh kích thước logo */
+    max-height: 50px; 
   }
   
   button {
     font-size: 1rem;
   }
-  

@@ -1,0 +1,122 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\TaiLieu\\QLDA\\Movie_Ticket_Booking_Website\\backend\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{69ECD34E-4EE0-4344-8566-F020DC7C57DD}|backend\\backend.csproj|c:\\tailieu\\qlda\\movie_ticket_booking_website\\backend\\backend\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{69ECD34E-4EE0-4344-8566-F020DC7C57DD}|backend\\backend.csproj|solutionrelative:backend\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9A8AC206-0DA3-41EC-8BA9-7C5DD1DC924D}|Services\\Auth\\Auth.ApplicationService\\Auth.ApplicationService.csproj|c:\\tailieu\\qlda\\movie_ticket_booking_website\\backend\\services\\auth\\auth.applicationservice\\usermodule\\implements\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9A8AC206-0DA3-41EC-8BA9-7C5DD1DC924D}|Services\\Auth\\Auth.ApplicationService\\Auth.ApplicationService.csproj|solutionrelative:services\\auth\\auth.applicationservice\\usermodule\\implements\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9A8AC206-0DA3-41EC-8BA9-7C5DD1DC924D}|Services\\Auth\\Auth.ApplicationService\\Auth.ApplicationService.csproj|c:\\tailieu\\qlda\\movie_ticket_booking_website\\backend\\services\\auth\\auth.applicationservice\\usermodule\\abstracts\\iuserservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9A8AC206-0DA3-41EC-8BA9-7C5DD1DC924D}|Services\\Auth\\Auth.ApplicationService\\Auth.ApplicationService.csproj|solutionrelative:services\\auth\\auth.applicationservice\\usermodule\\abstracts\\iuserservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B7AB2AE0-0C5F-49DC-A213-BD4E16F79AB7}|Services\\Auth\\Auth.Dtos\\Auth.Dtos.csproj|c:\\tailieu\\qlda\\movie_ticket_booking_website\\backend\\services\\auth\\auth.dtos\\userdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B7AB2AE0-0C5F-49DC-A213-BD4E16F79AB7}|Services\\Auth\\Auth.Dtos\\Auth.Dtos.csproj|solutionrelative:services\\auth\\auth.dtos\\userdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B7AB2AE0-0C5F-49DC-A213-BD4E16F79AB7}|Services\\Auth\\Auth.Dtos\\Auth.Dtos.csproj|c:\\tailieu\\qlda\\movie_ticket_booking_website\\backend\\services\\auth\\auth.dtos\\updateuserdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B7AB2AE0-0C5F-49DC-A213-BD4E16F79AB7}|Services\\Auth\\Auth.Dtos\\Auth.Dtos.csproj|solutionrelative:services\\auth\\auth.dtos\\updateuserdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B7AB2AE0-0C5F-49DC-A213-BD4E16F79AB7}|Services\\Auth\\Auth.Dtos\\Auth.Dtos.csproj|c:\\tailieu\\qlda\\movie_ticket_booking_website\\backend\\services\\auth\\auth.dtos\\logindto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B7AB2AE0-0C5F-49DC-A213-BD4E16F79AB7}|Services\\Auth\\Auth.Dtos\\Auth.Dtos.csproj|solutionrelative:services\\auth\\auth.dtos\\logindto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 4,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "IUserService.cs",
+              "DocumentMoniker": "C:\\TaiLieu\\QLDA\\Movie_Ticket_Booking_Website\\backend\\Services\\Auth\\Auth.ApplicationService\\UserModule\\Abstracts\\IUserService.cs",
+              "RelativeDocumentMoniker": "Services\\Auth\\Auth.ApplicationService\\UserModule\\Abstracts\\IUserService.cs",
+              "ToolTip": "C:\\TaiLieu\\QLDA\\Movie_Ticket_Booking_Website\\backend\\Services\\Auth\\Auth.ApplicationService\\UserModule\\Abstracts\\IUserService.cs",
+              "RelativeToolTip": "Services\\Auth\\Auth.ApplicationService\\UserModule\\Abstracts\\IUserService.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAA8AAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-06T01:14:16.097Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "LoginDto.cs",
+              "DocumentMoniker": "C:\\TaiLieu\\QLDA\\Movie_Ticket_Booking_Website\\backend\\Services\\Auth\\Auth.Dtos\\LoginDto.cs",
+              "RelativeDocumentMoniker": "Services\\Auth\\Auth.Dtos\\LoginDto.cs",
+              "ToolTip": "C:\\TaiLieu\\QLDA\\Movie_Ticket_Booking_Website\\backend\\Services\\Auth\\Auth.Dtos\\LoginDto.cs",
+              "RelativeToolTip": "Services\\Auth\\Auth.Dtos\\LoginDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-06T00:29:46.874Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "UpdateUserDto.cs",
+              "DocumentMoniker": "C:\\TaiLieu\\QLDA\\Movie_Ticket_Booking_Website\\backend\\Services\\Auth\\Auth.Dtos\\UpdateUserDto.cs",
+              "RelativeDocumentMoniker": "Services\\Auth\\Auth.Dtos\\UpdateUserDto.cs",
+              "ToolTip": "C:\\TaiLieu\\QLDA\\Movie_Ticket_Booking_Website\\backend\\Services\\Auth\\Auth.Dtos\\UpdateUserDto.cs",
+              "RelativeToolTip": "Services\\Auth\\Auth.Dtos\\UpdateUserDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-06T00:28:54.668Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "UserDto.cs",
+              "DocumentMoniker": "C:\\TaiLieu\\QLDA\\Movie_Ticket_Booking_Website\\backend\\Services\\Auth\\Auth.Dtos\\UserDto.cs",
+              "RelativeDocumentMoniker": "Services\\Auth\\Auth.Dtos\\UserDto.cs",
+              "ToolTip": "C:\\TaiLieu\\QLDA\\Movie_Ticket_Booking_Website\\backend\\Services\\Auth\\Auth.Dtos\\UserDto.cs",
+              "RelativeToolTip": "Services\\Auth\\Auth.Dtos\\UserDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-06T00:28:45.706Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "AuthController.cs",
+              "DocumentMoniker": "C:\\TaiLieu\\QLDA\\Movie_Ticket_Booking_Website\\backend\\backend\\Controllers\\AuthController.cs",
+              "RelativeDocumentMoniker": "backend\\Controllers\\AuthController.cs",
+              "ToolTip": "C:\\TaiLieu\\QLDA\\Movie_Ticket_Booking_Website\\backend\\backend\\Controllers\\AuthController.cs",
+              "RelativeToolTip": "backend\\Controllers\\AuthController.cs",
+              "ViewState": "AgIAACoAAAAAAAAAAAAuwD8AAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-05T11:16:11.484Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "UserService.cs",
+              "DocumentMoniker": "C:\\TaiLieu\\QLDA\\Movie_Ticket_Booking_Website\\backend\\Services\\Auth\\Auth.ApplicationService\\UserModule\\Implements\\UserService.cs",
+              "RelativeDocumentMoniker": "Services\\Auth\\Auth.ApplicationService\\UserModule\\Implements\\UserService.cs",
+              "ToolTip": "C:\\TaiLieu\\QLDA\\Movie_Ticket_Booking_Website\\backend\\Services\\Auth\\Auth.ApplicationService\\UserModule\\Implements\\UserService.cs",
+              "RelativeToolTip": "Services\\Auth\\Auth.ApplicationService\\UserModule\\Implements\\UserService.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAF8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-05T10:21:53.103Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

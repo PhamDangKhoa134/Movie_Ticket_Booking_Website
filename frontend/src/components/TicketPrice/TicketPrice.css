@@ -1,0 +1,35 @@
+.ticket-container {
+    text-align: center;
+    color: white;
+    margin-inline: 10%;
+}
+
+.text-h2 {
+    margin-top: 10%;
+    margin-bottom: 3%;
+}
+
+.ticket-price-table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.ticket-price-table th, .ticket-price-table td {
+    border: 1px solid #fff;
+    padding: 10px;
+}
+
+.ticket-price-table th {
+    /* background-color: #333; */
+    font-weight: bold;
+}
+
+.luu-y{
+    text-align: left;
+    margin-top: 3%;
+
+    .text-h6{
+        font-weight: bold;
+        margin-top: 30px;
+    }
+}

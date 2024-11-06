@@ -1,0 +1,12 @@
+C:\TaiLieu\QLDA\Movie_Ticket_Booking_Website\backend\Services\Auth\Auth.Dtos\bin\Debug\net8.0\Auth.Dtos.deps.json
+C:\TaiLieu\QLDA\Movie_Ticket_Booking_Website\backend\Services\Auth\Auth.Dtos\bin\Debug\net8.0\Auth.Dtos.dll
+C:\TaiLieu\QLDA\Movie_Ticket_Booking_Website\backend\Services\Auth\Auth.Dtos\bin\Debug\net8.0\Auth.Dtos.pdb
+C:\TaiLieu\QLDA\Movie_Ticket_Booking_Website\backend\Services\Auth\Auth.Dtos\obj\Debug\net8.0\Auth.Dtos.GeneratedMSBuildEditorConfig.editorconfig
+C:\TaiLieu\QLDA\Movie_Ticket_Booking_Website\backend\Services\Auth\Auth.Dtos\obj\Debug\net8.0\Auth.Dtos.AssemblyInfoInputs.cache
+C:\TaiLieu\QLDA\Movie_Ticket_Booking_Website\backend\Services\Auth\Auth.Dtos\obj\Debug\net8.0\Auth.Dtos.AssemblyInfo.cs
+C:\TaiLieu\QLDA\Movie_Ticket_Booking_Website\backend\Services\Auth\Auth.Dtos\obj\Debug\net8.0\Auth.Dtos.csproj.CoreCompileInputs.cache
+C:\TaiLieu\QLDA\Movie_Ticket_Booking_Website\backend\Services\Auth\Auth.Dtos\obj\Debug\net8.0\Auth.Dtos.sourcelink.json
+C:\TaiLieu\QLDA\Movie_Ticket_Booking_Website\backend\Services\Auth\Auth.Dtos\obj\Debug\net8.0\Auth.Dtos.dll
+C:\TaiLieu\QLDA\Movie_Ticket_Booking_Website\backend\Services\Auth\Auth.Dtos\obj\Debug\net8.0\refint\Auth.Dtos.dll
+C:\TaiLieu\QLDA\Movie_Ticket_Booking_Website\backend\Services\Auth\Auth.Dtos\obj\Debug\net8.0\Auth.Dtos.pdb
+C:\TaiLieu\QLDA\Movie_Ticket_Booking_Website\backend\Services\Auth\Auth.Dtos\obj\Debug\net8.0\ref\Auth.Dtos.dll

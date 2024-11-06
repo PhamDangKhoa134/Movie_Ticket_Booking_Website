@@ -1,17 +1,9 @@
-.containerdiv{
-    background-color: #0B0D13;
-}
-
 .container{
-    background-color: #0B0D13;
+    background-color: #212529;
 }
 
 .text-center{
     color: #FFFFFF;
-}
-
-.row {
-    background-color: #10141B;
 }
 
 .card {
@@ -19,7 +11,11 @@
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    background-color: #10141B;
+
+    border: 1px solid black !important; /* Đổi border thành màu đen */
+    .card-body{
+        background-color: black;
+    }
 }
 
 .card h5 {

@@ -11,6 +11,8 @@ import TicketPrice from "./components/TicketPrice/TicketPrice";
 import Login from "./components/Login/Login";
 import Register from "./components/Register/Register";
 import Bottom from "./components/Bottom/Bottom";
+import MMovie from "./components/ManageMovie/MMovie";
+import Movie from "./components/Movie/Movie"
 
 function App() {
   return (
@@ -25,6 +27,8 @@ function App() {
           <Route path="/ticketprice" element={<TicketPrice />} />
           <Route path="/login" element={<Login />} />
           <Route path="/register" element={<Register />} />
+          <Route path="/manageMovie" element={<MMovie />} />
+          <Route path="/movie/:id" element={<Movie />} />
 
           <Route path="*" element={<h1>404 Not Found</h1>} />
         </Routes>

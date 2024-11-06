@@ -7,9 +7,8 @@ import logo from '../../Image/logo.png'; // Đảm bảo đường dẫn đúng
 
 function Navi() {
   return (
-    <Navbar bg="dark" variant="dark" expand="lg" className="py-1">
+    <Navbar bg="dark" variant="dark" expand="lg" className="navbar-custom py-1">
       <Container>
-        {/* Logo dưới dạng ảnh */}
         <Navbar.Brand as={NavLink} to="/">
           <img
             src={logo}
@@ -20,10 +19,8 @@ function Navi() {
           />
         </Navbar.Brand>
 
-        {/* Nút toggle cho thiết bị nhỏ */}
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
 
-        {/* Nội dung Navbar */}
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="me-auto ms-3">
             <Nav.Link as={NavLink} to="/" exact>
@@ -37,7 +34,6 @@ function Navi() {
             </Nav.Link>
           </Nav>
 
-          {/* Nút Đăng nhập và Đăng ký */}
           <div className="d-flex gap-2">
             <Button variant="outline-light" as={NavLink} to="/register">
               Đăng ký

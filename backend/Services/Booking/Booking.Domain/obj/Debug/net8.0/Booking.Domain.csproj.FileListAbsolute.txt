@@ -1,0 +1,12 @@
+C:\TaiLieu\QLDA\Movie_Ticket_Booking_Website\backend\Services\Booking\Booking.Domain\bin\Debug\net8.0\Booking.Domain.deps.json
+C:\TaiLieu\QLDA\Movie_Ticket_Booking_Website\backend\Services\Booking\Booking.Domain\bin\Debug\net8.0\Booking.Domain.dll
+C:\TaiLieu\QLDA\Movie_Ticket_Booking_Website\backend\Services\Booking\Booking.Domain\bin\Debug\net8.0\Booking.Domain.pdb
+C:\TaiLieu\QLDA\Movie_Ticket_Booking_Website\backend\Services\Booking\Booking.Domain\obj\Debug\net8.0\Booking.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\TaiLieu\QLDA\Movie_Ticket_Booking_Website\backend\Services\Booking\Booking.Domain\obj\Debug\net8.0\Booking.Domain.AssemblyInfoInputs.cache
+C:\TaiLieu\QLDA\Movie_Ticket_Booking_Website\backend\Services\Booking\Booking.Domain\obj\Debug\net8.0\Booking.Domain.AssemblyInfo.cs
+C:\TaiLieu\QLDA\Movie_Ticket_Booking_Website\backend\Services\Booking\Booking.Domain\obj\Debug\net8.0\Booking.Domain.csproj.CoreCompileInputs.cache
+C:\TaiLieu\QLDA\Movie_Ticket_Booking_Website\backend\Services\Booking\Booking.Domain\obj\Debug\net8.0\Booking.Domain.sourcelink.json
+C:\TaiLieu\QLDA\Movie_Ticket_Booking_Website\backend\Services\Booking\Booking.Domain\obj\Debug\net8.0\Booking.Domain.dll
+C:\TaiLieu\QLDA\Movie_Ticket_Booking_Website\backend\Services\Booking\Booking.Domain\obj\Debug\net8.0\refint\Booking.Domain.dll
+C:\TaiLieu\QLDA\Movie_Ticket_Booking_Website\backend\Services\Booking\Booking.Domain\obj\Debug\net8.0\Booking.Domain.pdb
+C:\TaiLieu\QLDA\Movie_Ticket_Booking_Website\backend\Services\Booking\Booking.Domain\obj\Debug\net8.0\ref\Booking.Domain.dll
