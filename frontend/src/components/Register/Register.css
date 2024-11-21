@@ -1,0 +1,35 @@
+/* Đặt nền đen và chữ trắng cho modal */
+.register-modal .modal-content {
+    background-color: #000;
+    color: #fff;
+}
+
+/* Đổi màu và kiểu nút đóng "X" */
+.register-modal .modal-header .btn-close {
+    filter: invert(100%);
+}
+
+/* Đặt nút "Đăng ký" dài bằng input và màu đỏ */
+.register-modal .btn-register {
+    background-color: #d9534f;
+    color: #fff;
+    width: 100%;
+    border: none;
+}
+
+/* Đổi màu nút khi hover */
+.register-modal .btn-register:hover {
+    background-color: #c9302c;
+}
+
+.register-modal .register-button {
+    width: 100%;
+    background-color: red;
+    border: none;
+    color: white;
+}
+
+.register-modal .modal-header,
+.register-modal .modal-footer {
+    border: none; /* Bỏ viền giữa các phần của modal */
+}

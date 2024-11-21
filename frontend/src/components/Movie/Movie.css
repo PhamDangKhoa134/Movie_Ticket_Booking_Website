@@ -1,7 +1,7 @@
 .movie-details {
     position: relative;
     width: 100%;
-    height: 100vh;
+    height: 60vh;
     color: #fff;
     display: flex;
     align-items: flex-start; /* Change this from center to flex-start */
@@ -79,4 +79,65 @@
 
 .details-inline p {
     margin: 0;
+}
+
+.button-container {
+    margin:20px 0px;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap; /* Để đảm bảo các button có thể xuống dòng nếu không đủ không gian */
+}
+  
+  .button {
+    background-color: #1e1e1e;
+    color: #fff;
+    padding: 5px 10px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    display: inline-block;  /* Kiểm tra nếu button bị ẩn */
+    border-radius: 0px;
+    border-color: black;
+    margin: 0px 0px;
+    }
+  
+  .button:hover {
+    background-color: #333;
+  }
+  
+  .button.active {
+    background-color: #ff4d4d;
+  }
+
+  .showtimes-container {
+    display: flex; /* Thêm flexbox */
+    justify-content: center; /* Căn giữa theo chiều ngang */
+    align-items: center; /* Căn giữa theo chiều dọc */
+    height: 20vh; /* Giữ nguyên chiều cao khung */
+    margin: 20px 0px;
+}
+
+.showtimesdiv {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    flex-wrap: wrap;
+    width: 60%;
+}
+
+.showtime {
+    background-color: black;
+    padding: 10px 50px;
+    border-radius: 30px;
+    font-weight: bold;
+    color: white;
+    text-align: center;
+    border-color: #1e293b;
+}
+
+.showtime:hover {
+    background-color: #1e293b;
+}
+
+.showtime:active {
+    background-color: #ff4d4d;
 }

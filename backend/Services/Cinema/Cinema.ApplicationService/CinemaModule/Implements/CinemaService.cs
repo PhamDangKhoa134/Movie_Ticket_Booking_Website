@@ -94,5 +94,36 @@ namespace Cinema.ApplicationService.CinemaModule.Implements
                 HolidayPrice= findTypeSeat.HolidayPrice,
             };
         }
+
+        public List<CinemaHallSeatDto> GetAllSeatByCinema(int cinemaId)
+        {
+            var result = _dbContext.CinemaHallSeats.Where(p => p.CinemaID == cinemaId).OrderByDescending(p => p.Id).ThenByDescending(p => p.Id).Select(p => new CinemaHallSeatDto
+            {
+                Id = p.Id,
+                SeatRow = p.SeatRow,
+                SeatColumn = p.SeatColumn,
+                CinemaID = p.CinemaID,
+                TypeID = p.TypeID,
+            });
+            return result.ToList();
+        }
+
+        CinemaHallSeatDto ICinemaService.GetIdSeat(int id)
+        {
+            var findSeat = _dbContext.CinemaHallSeats.FirstOrDefault(p => p.Id == id);
+            if (findSeat == null)
+            {
+                throw new Exception("Không tìm thấy sản phẩm cần tìm");
+            }
+            return new CinemaHallSeatDto
+            {
+                Id = findSeat.Id,
+                SeatRow = findSeat.SeatRow,
+                SeatColumn = findSeat.SeatColumn,
+                CinemaID = findSeat.CinemaID,
+                TypeID = findSeat.TypeID,
+            };
+        }
+
     }
 }

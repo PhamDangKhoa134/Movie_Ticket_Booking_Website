@@ -6,4 +6,19 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\..\Shared\Contstant\Contstant.csproj" />
+    <ProjectReference Include="..\..\Shared\Shared.ApplicationService\Shared.ApplicationService.csproj" />
+    <ProjectReference Include="..\Show.Dtos\Show.Dtos.csproj" />
+    <ProjectReference Include="..\Show.Infrastructure\Show.Infrastructure.csproj" />
+  </ItemGroup>
+
+	<ItemGroup>
+		<FrameworkReference Include="Microsoft.AspNetCore.App" />
+	</ItemGroup>
+
+	<ItemGroup>
+		<PackageReference Include="Microsoft.AspNetCore.Mvc.Abstractions" Version="2.2.0" />
+	</ItemGroup>
+
 </Project>

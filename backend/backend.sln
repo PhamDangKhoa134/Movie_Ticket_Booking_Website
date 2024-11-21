@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.11.35222.181
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "backend", "backend\backend.csproj", "{69ECD34E-4EE0-4344-8566-F020DC7C57DD}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "backend", "backend\backend.csproj", "{69ECD34E-4EE0-4344-8566-F020DC7C57DD}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Services", "Services", "{D4A238D1-73DD-49C2-B537-30F0D2E5B789}"
 EndProject
@@ -11,57 +11,47 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Auth", "Auth", "{077CB5C2-5
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Movie", "Movie", "{B1A6D580-7578-411C-99EA-BC7A5C3303E8}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Booking", "Booking", "{22D71FB2-C979-46CF-B196-9525EE1D61AB}"
-EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Show", "Show", "{987EB10F-E362-4028-8594-0CC077A52999}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Cinema", "Cinema", "{03F10A7A-A3E5-46B6-B2AF-26197BD6509C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Auth.ApplicationService", "Services\Auth\Auth.ApplicationService\Auth.ApplicationService.csproj", "{9A8AC206-0DA3-41EC-8BA9-7C5DD1DC924D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Auth.ApplicationService", "Services\Auth\Auth.ApplicationService\Auth.ApplicationService.csproj", "{9A8AC206-0DA3-41EC-8BA9-7C5DD1DC924D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Auth.Domain", "Services\Auth\Auth.Domain\Auth.Domain.csproj", "{246A6506-27B7-4D6B-A113-B96EB730175F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Auth.Domain", "Services\Auth\Auth.Domain\Auth.Domain.csproj", "{246A6506-27B7-4D6B-A113-B96EB730175F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Auth.Dtos", "Services\Auth\Auth.Dtos\Auth.Dtos.csproj", "{B7AB2AE0-0C5F-49DC-A213-BD4E16F79AB7}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Auth.Dtos", "Services\Auth\Auth.Dtos\Auth.Dtos.csproj", "{B7AB2AE0-0C5F-49DC-A213-BD4E16F79AB7}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Auth.Infrastructure", "Services\Auth\Auth.Infrastructure\Auth.Infrastructure.csproj", "{0F554474-7BAF-497C-8133-A2C089AE9C28}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Auth.Infrastructure", "Services\Auth\Auth.Infrastructure\Auth.Infrastructure.csproj", "{0F554474-7BAF-497C-8133-A2C089AE9C28}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Booking.Domain", "Services\Booking\Booking.Domain\Booking.Domain.csproj", "{3EBA266C-8EC7-48E1-8FAB-D8608610AC50}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Cinema.ApplicationService", "Services\Cinema\Cinema.ApplicationService\Cinema.ApplicationService.csproj", "{6A1E60AF-982C-4F50-82B2-159B9FBFC3D7}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Booking.ApplicationService", "Services\Booking\Booking.ApplicationService\Booking.ApplicationService.csproj", "{C5418394-0DB7-4F7C-BB6B-912A6736847D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Cinema.Domain", "Services\Cinema\Cinema.Domain\Cinema.Domain.csproj", "{8C698304-6CB3-4A70-B711-0260242074DA}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Booking.Infrastructure", "Services\Booking\Booking.Infrastructure\Booking.Infrastructure.csproj", "{54504E97-C978-403D-BFB8-B6F993A5FE0E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Cinema.Dtos", "Services\Cinema\Cinema.Dtos\Cinema.Dtos.csproj", "{227C2FB2-EB05-4972-B8C5-BC59032C26BD}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Booking.Dtos", "Services\Booking\Booking.Dtos\Booking.Dtos.csproj", "{80667AD7-B651-4B94-870D-C6A93D4F23FC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Cinema.Infrastructure", "Services\Cinema\Cinema.Infrastructure\Cinema.Infrastructure.csproj", "{CA84DD5F-E2D2-468F-946C-EC0C9E5357E0}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Cinema.ApplicationService", "Services\Cinema\Cinema.ApplicationService\Cinema.ApplicationService.csproj", "{6A1E60AF-982C-4F50-82B2-159B9FBFC3D7}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Movie.ApplicationService", "Services\Movie\Movie.ApplicationService\Movie.ApplicationService.csproj", "{F7BD0334-329D-42C2-995F-CCB2B77EBEDE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Cinema.Domain", "Services\Cinema\Cinema.Domain\Cinema.Domain.csproj", "{8C698304-6CB3-4A70-B711-0260242074DA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Movie.Domain", "Services\Movie\Movie.Dmain\Movie.Domain.csproj", "{95F568BA-AF83-4626-8D77-A29F75F376A2}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Cinema.Dtos", "Services\Cinema\Cinema.Dtos\Cinema.Dtos.csproj", "{227C2FB2-EB05-4972-B8C5-BC59032C26BD}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Movie.Infrastructure", "Services\Movie\Movie.Infrastructure\Movie.Infrastructure.csproj", "{C7B66198-19F2-4397-A4AC-BD3BAD1F2C13}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Cinema.Infrastructure", "Services\Cinema\Cinema.Infrastructure\Cinema.Infrastructure.csproj", "{CA84DD5F-E2D2-468F-946C-EC0C9E5357E0}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Movie.Dtos", "Services\Movie\Movie.Dtos\Movie.Dtos.csproj", "{DE0AF15B-85C7-434A-9FAD-CA39B95E095C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Movie.ApplicationService", "Services\Movie\Movie.ApplicationService\Movie.ApplicationService.csproj", "{F7BD0334-329D-42C2-995F-CCB2B77EBEDE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Show.ApplicationService", "Services\Show\Show.ApplicationService\Show.ApplicationService.csproj", "{7566AB73-E445-481D-B93D-A5456C8079B2}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Movie.Domain", "Services\Movie\Movie.Dmain\Movie.Domain.csproj", "{95F568BA-AF83-4626-8D77-A29F75F376A2}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Show.Domain", "Services\Show\Show.Domain\Show.Domain.csproj", "{D0E7A4EE-D623-4E4C-9804-5E04AE5AE4EB}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Movie.Infrastructure", "Services\Movie\Movie.Infrastructure\Movie.Infrastructure.csproj", "{C7B66198-19F2-4397-A4AC-BD3BAD1F2C13}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Show.Dtos", "Services\Show\Show.Dtos\Show.Dtos.csproj", "{D7DB92AB-1D8C-47BD-B0DE-A53A81DB56BB}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Movie.Dtos", "Services\Movie\Movie.Dtos\Movie.Dtos.csproj", "{DE0AF15B-85C7-434A-9FAD-CA39B95E095C}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Show.ApplicationService", "Services\Show\Show.ApplicationService\Show.ApplicationService.csproj", "{7566AB73-E445-481D-B93D-A5456C8079B2}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Show.Domain", "Services\Show\Show.Domain\Show.Domain.csproj", "{D0E7A4EE-D623-4E4C-9804-5E04AE5AE4EB}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Show.Dtos", "Services\Show\Show.Dtos\Show.Dtos.csproj", "{D7DB92AB-1D8C-47BD-B0DE-A53A81DB56BB}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Show.Infrastructure", "Services\Show\Show.Infrastructure\Show.Infrastructure.csproj", "{6347AEE0-09C3-4D82-8050-65B9D587BDF5}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Show.Infrastructure", "Services\Show\Show.Infrastructure\Show.Infrastructure.csproj", "{6347AEE0-09C3-4D82-8050-65B9D587BDF5}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Shared", "Shared", "{1B18B4AA-EB0C-4B96-82FE-7919EDB8BE91}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Contstant", "Services\Shared\Contstant\Contstant.csproj", "{D9B0B033-9DBA-461C-ACF8-A8E8C8BA7486}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Contstant", "Services\Shared\Contstant\Contstant.csproj", "{D9B0B033-9DBA-461C-ACF8-A8E8C8BA7486}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Shared.ApplicationService", "Services\Shared\Shared.ApplicationService\Shared.ApplicationService.csproj", "{8BA4045F-10E7-46F3-BB8F-9B7BC136D496}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Shared.ApplicationService", "Services\Shared\Shared.ApplicationService\Shared.ApplicationService.csproj", "{8BA4045F-10E7-46F3-BB8F-9B7BC136D496}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -89,22 +79,6 @@ Global
 		{0F554474-7BAF-497C-8133-A2C089AE9C28}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0F554474-7BAF-497C-8133-A2C089AE9C28}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0F554474-7BAF-497C-8133-A2C089AE9C28}.Release|Any CPU.Build.0 = Release|Any CPU
-		{3EBA266C-8EC7-48E1-8FAB-D8608610AC50}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{3EBA266C-8EC7-48E1-8FAB-D8608610AC50}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{3EBA266C-8EC7-48E1-8FAB-D8608610AC50}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{3EBA266C-8EC7-48E1-8FAB-D8608610AC50}.Release|Any CPU.Build.0 = Release|Any CPU
-		{C5418394-0DB7-4F7C-BB6B-912A6736847D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{C5418394-0DB7-4F7C-BB6B-912A6736847D}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{C5418394-0DB7-4F7C-BB6B-912A6736847D}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{C5418394-0DB7-4F7C-BB6B-912A6736847D}.Release|Any CPU.Build.0 = Release|Any CPU
-		{54504E97-C978-403D-BFB8-B6F993A5FE0E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{54504E97-C978-403D-BFB8-B6F993A5FE0E}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{54504E97-C978-403D-BFB8-B6F993A5FE0E}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{54504E97-C978-403D-BFB8-B6F993A5FE0E}.Release|Any CPU.Build.0 = Release|Any CPU
-		{80667AD7-B651-4B94-870D-C6A93D4F23FC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{80667AD7-B651-4B94-870D-C6A93D4F23FC}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{80667AD7-B651-4B94-870D-C6A93D4F23FC}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{80667AD7-B651-4B94-870D-C6A93D4F23FC}.Release|Any CPU.Build.0 = Release|Any CPU
 		{6A1E60AF-982C-4F50-82B2-159B9FBFC3D7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{6A1E60AF-982C-4F50-82B2-159B9FBFC3D7}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6A1E60AF-982C-4F50-82B2-159B9FBFC3D7}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -168,17 +142,12 @@ Global
 	GlobalSection(NestedProjects) = preSolution
 		{077CB5C2-506A-46F7-9CF2-81562B376B6D} = {D4A238D1-73DD-49C2-B537-30F0D2E5B789}
 		{B1A6D580-7578-411C-99EA-BC7A5C3303E8} = {D4A238D1-73DD-49C2-B537-30F0D2E5B789}
-		{22D71FB2-C979-46CF-B196-9525EE1D61AB} = {D4A238D1-73DD-49C2-B537-30F0D2E5B789}
 		{987EB10F-E362-4028-8594-0CC077A52999} = {D4A238D1-73DD-49C2-B537-30F0D2E5B789}
 		{03F10A7A-A3E5-46B6-B2AF-26197BD6509C} = {D4A238D1-73DD-49C2-B537-30F0D2E5B789}
 		{9A8AC206-0DA3-41EC-8BA9-7C5DD1DC924D} = {077CB5C2-506A-46F7-9CF2-81562B376B6D}
 		{246A6506-27B7-4D6B-A113-B96EB730175F} = {077CB5C2-506A-46F7-9CF2-81562B376B6D}
 		{B7AB2AE0-0C5F-49DC-A213-BD4E16F79AB7} = {077CB5C2-506A-46F7-9CF2-81562B376B6D}
 		{0F554474-7BAF-497C-8133-A2C089AE9C28} = {077CB5C2-506A-46F7-9CF2-81562B376B6D}
-		{3EBA266C-8EC7-48E1-8FAB-D8608610AC50} = {22D71FB2-C979-46CF-B196-9525EE1D61AB}
-		{C5418394-0DB7-4F7C-BB6B-912A6736847D} = {22D71FB2-C979-46CF-B196-9525EE1D61AB}
-		{54504E97-C978-403D-BFB8-B6F993A5FE0E} = {22D71FB2-C979-46CF-B196-9525EE1D61AB}
-		{80667AD7-B651-4B94-870D-C6A93D4F23FC} = {22D71FB2-C979-46CF-B196-9525EE1D61AB}
 		{6A1E60AF-982C-4F50-82B2-159B9FBFC3D7} = {03F10A7A-A3E5-46B6-B2AF-26197BD6509C}
 		{8C698304-6CB3-4A70-B711-0260242074DA} = {03F10A7A-A3E5-46B6-B2AF-26197BD6509C}
 		{227C2FB2-EB05-4972-B8C5-BC59032C26BD} = {03F10A7A-A3E5-46B6-B2AF-26197BD6509C}

@@ -1,5 +1,7 @@
 ﻿using Microsoft.AspNetCore.Mvc;
+using Movie.ApplicationService.Common;
 using Movie.Dtos;
+using Shared.ApplicationService;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -15,5 +17,7 @@ namespace Movie.ApplicationService.MovieModule.Abstracts
         MovieDto GetIdMovie(int id);
         List<MovieDto> GetAllMovie();
         void UpdateMovie(UpdateMovieDto input);
+        PageResultDto<MovieDto> GetAll(FilterDto input);
+        CensorDto GetIdCensor(int id);
     }
 }

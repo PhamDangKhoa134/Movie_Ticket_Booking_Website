@@ -11,3 +11,16 @@ C:\TaiLieu\QLDA\Movie_Ticket_Booking_Website\backend\Services\Movie\Movie.Dtos\o
 C:\TaiLieu\QLDA\Movie_Ticket_Booking_Website\backend\Services\Movie\Movie.Dtos\obj\Debug\net8.0\Movie.Dtos.pdb
 C:\TaiLieu\QLDA\Movie_Ticket_Booking_Website\backend\Services\Movie\Movie.Dtos\obj\Debug\net8.0\ref\Movie.Dtos.dll
 C:\TaiLieu\QLDA\Movie_Ticket_Booking_Website\backend\Services\Movie\Movie.Dtos\obj\Debug\net8.0\Movie.Dtos.csproj.AssemblyReference.cache
+C:\TaiLieu\QLDA\Movie_Ticket_Booking_Website1\backend\Services\Movie\Movie.Dtos\bin\Debug\net8.0\Movie.Dtos.deps.json
+C:\TaiLieu\QLDA\Movie_Ticket_Booking_Website1\backend\Services\Movie\Movie.Dtos\bin\Debug\net8.0\Movie.Dtos.dll
+C:\TaiLieu\QLDA\Movie_Ticket_Booking_Website1\backend\Services\Movie\Movie.Dtos\bin\Debug\net8.0\Movie.Dtos.pdb
+C:\TaiLieu\QLDA\Movie_Ticket_Booking_Website1\backend\Services\Movie\Movie.Dtos\obj\Debug\net8.0\Movie.Dtos.csproj.AssemblyReference.cache
+C:\TaiLieu\QLDA\Movie_Ticket_Booking_Website1\backend\Services\Movie\Movie.Dtos\obj\Debug\net8.0\Movie.Dtos.GeneratedMSBuildEditorConfig.editorconfig
+C:\TaiLieu\QLDA\Movie_Ticket_Booking_Website1\backend\Services\Movie\Movie.Dtos\obj\Debug\net8.0\Movie.Dtos.AssemblyInfoInputs.cache
+C:\TaiLieu\QLDA\Movie_Ticket_Booking_Website1\backend\Services\Movie\Movie.Dtos\obj\Debug\net8.0\Movie.Dtos.AssemblyInfo.cs
+C:\TaiLieu\QLDA\Movie_Ticket_Booking_Website1\backend\Services\Movie\Movie.Dtos\obj\Debug\net8.0\Movie.Dtos.csproj.CoreCompileInputs.cache
+C:\TaiLieu\QLDA\Movie_Ticket_Booking_Website1\backend\Services\Movie\Movie.Dtos\obj\Debug\net8.0\Movie.Dtos.sourcelink.json
+C:\TaiLieu\QLDA\Movie_Ticket_Booking_Website1\backend\Services\Movie\Movie.Dtos\obj\Debug\net8.0\Movie.Dtos.dll
+C:\TaiLieu\QLDA\Movie_Ticket_Booking_Website1\backend\Services\Movie\Movie.Dtos\obj\Debug\net8.0\refint\Movie.Dtos.dll
+C:\TaiLieu\QLDA\Movie_Ticket_Booking_Website1\backend\Services\Movie\Movie.Dtos\obj\Debug\net8.0\Movie.Dtos.pdb
+C:\TaiLieu\QLDA\Movie_Ticket_Booking_Website1\backend\Services\Movie\Movie.Dtos\obj\Debug\net8.0\ref\Movie.Dtos.dll

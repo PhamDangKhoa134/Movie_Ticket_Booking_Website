@@ -10,3 +10,11 @@ C:\TaiLieu\QLDA\Movie_Ticket_Booking_Website\backend\Services\Show\Show.Infrastr
 C:\TaiLieu\QLDA\Movie_Ticket_Booking_Website\backend\Services\Show\Show.Infrastructure\obj\Debug\net8.0\refint\Show.Infrastructure.dll
 C:\TaiLieu\QLDA\Movie_Ticket_Booking_Website\backend\Services\Show\Show.Infrastructure\obj\Debug\net8.0\Show.Infrastructure.pdb
 C:\TaiLieu\QLDA\Movie_Ticket_Booking_Website\backend\Services\Show\Show.Infrastructure\obj\Debug\net8.0\ref\Show.Infrastructure.dll
+C:\TaiLieu\QLDA\Movie_Ticket_Booking_Website\backend\Services\Show\Show.Infrastructure\bin\Debug\net8.0\Show.Infrastructure.runtimeconfig.json
+C:\TaiLieu\QLDA\Movie_Ticket_Booking_Website\backend\Services\Show\Show.Infrastructure\bin\Debug\net8.0\Contstant.dll
+C:\TaiLieu\QLDA\Movie_Ticket_Booking_Website\backend\Services\Show\Show.Infrastructure\bin\Debug\net8.0\Show.Domain.dll
+C:\TaiLieu\QLDA\Movie_Ticket_Booking_Website\backend\Services\Show\Show.Infrastructure\bin\Debug\net8.0\Show.Domain.pdb
+C:\TaiLieu\QLDA\Movie_Ticket_Booking_Website\backend\Services\Show\Show.Infrastructure\bin\Debug\net8.0\Contstant.pdb
+C:\TaiLieu\QLDA\Movie_Ticket_Booking_Website\backend\Services\Show\Show.Infrastructure\obj\Debug\net8.0\Show.Infrastructure.csproj.AssemblyReference.cache
+C:\TaiLieu\QLDA\Movie_Ticket_Booking_Website\backend\Services\Show\Show.Infrastructure\obj\Debug\net8.0\Show.Inf.88924126.Up2Date
+C:\TaiLieu\QLDA\Movie_Ticket_Booking_Website\backend\Services\Show\Show.Infrastructure\obj\Debug\net8.0\Show.Infrastructure.genruntimeconfig.cache

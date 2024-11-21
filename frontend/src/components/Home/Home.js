@@ -28,6 +28,7 @@ const Home = () => {
 
     const handleMovie = (id) => {
         navigate(`/movie/${id}`);
+        window.location.reload();
     };
 
     return (

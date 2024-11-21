@@ -39,7 +39,6 @@ namespace backend.Controllers
         [HttpGet("get-all-type-seat")]
         public IActionResult GetAllTypeSeat()
         {
-
             return Ok(_cinemaService.GetAllTypeSeat());
         }
 
@@ -48,6 +47,19 @@ namespace backend.Controllers
         {
 
             return Ok(_cinemaService.GetIdTypeSeat(id));
+        }
+
+        [HttpGet("get-all-seat-by-cinema/{id}")]
+        public IActionResult GetAllSeatByCinema(int id)
+        {
+            return Ok(_cinemaService.GetAllSeatByCinema(id));
+        }
+
+        [HttpGet("get-seat/{id}")]
+        public IActionResult GetIdSeat(int id)
+        {
+
+            return Ok(_cinemaService.GetIdSeat(id));
         }
     }
 }

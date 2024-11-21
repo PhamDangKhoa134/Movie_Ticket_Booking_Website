@@ -12,7 +12,6 @@ namespace Contstant.Database
         public const string Default = "dbo";
         public const string Auth = "auth";
         public const string Movie = "movie";
-        public const string Booking = "booking";
         public const string Cinema = "cinema";
         public const string Show = "show";
 

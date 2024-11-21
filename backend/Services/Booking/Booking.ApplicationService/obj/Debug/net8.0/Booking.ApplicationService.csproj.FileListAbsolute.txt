@@ -10,3 +10,15 @@ C:\TaiLieu\QLDA\Movie_Ticket_Booking_Website\backend\Services\Booking\Booking.Ap
 C:\TaiLieu\QLDA\Movie_Ticket_Booking_Website\backend\Services\Booking\Booking.ApplicationService\obj\Debug\net8.0\refint\Booking.ApplicationService.dll
 C:\TaiLieu\QLDA\Movie_Ticket_Booking_Website\backend\Services\Booking\Booking.ApplicationService\obj\Debug\net8.0\Booking.ApplicationService.pdb
 C:\TaiLieu\QLDA\Movie_Ticket_Booking_Website\backend\Services\Booking\Booking.ApplicationService\obj\Debug\net8.0\ref\Booking.ApplicationService.dll
+C:\TaiLieu\QLDA\Movie_Ticket_Booking_Website1\backend\Services\Booking\Booking.ApplicationService\bin\Debug\net8.0\Booking.ApplicationService.deps.json
+C:\TaiLieu\QLDA\Movie_Ticket_Booking_Website1\backend\Services\Booking\Booking.ApplicationService\bin\Debug\net8.0\Booking.ApplicationService.dll
+C:\TaiLieu\QLDA\Movie_Ticket_Booking_Website1\backend\Services\Booking\Booking.ApplicationService\bin\Debug\net8.0\Booking.ApplicationService.pdb
+C:\TaiLieu\QLDA\Movie_Ticket_Booking_Website1\backend\Services\Booking\Booking.ApplicationService\obj\Debug\net8.0\Booking.ApplicationService.GeneratedMSBuildEditorConfig.editorconfig
+C:\TaiLieu\QLDA\Movie_Ticket_Booking_Website1\backend\Services\Booking\Booking.ApplicationService\obj\Debug\net8.0\Booking.ApplicationService.AssemblyInfoInputs.cache
+C:\TaiLieu\QLDA\Movie_Ticket_Booking_Website1\backend\Services\Booking\Booking.ApplicationService\obj\Debug\net8.0\Booking.ApplicationService.AssemblyInfo.cs
+C:\TaiLieu\QLDA\Movie_Ticket_Booking_Website1\backend\Services\Booking\Booking.ApplicationService\obj\Debug\net8.0\Booking.ApplicationService.csproj.CoreCompileInputs.cache
+C:\TaiLieu\QLDA\Movie_Ticket_Booking_Website1\backend\Services\Booking\Booking.ApplicationService\obj\Debug\net8.0\Booking.ApplicationService.sourcelink.json
+C:\TaiLieu\QLDA\Movie_Ticket_Booking_Website1\backend\Services\Booking\Booking.ApplicationService\obj\Debug\net8.0\Booking.ApplicationService.dll
+C:\TaiLieu\QLDA\Movie_Ticket_Booking_Website1\backend\Services\Booking\Booking.ApplicationService\obj\Debug\net8.0\refint\Booking.ApplicationService.dll
+C:\TaiLieu\QLDA\Movie_Ticket_Booking_Website1\backend\Services\Booking\Booking.ApplicationService\obj\Debug\net8.0\Booking.ApplicationService.pdb
+C:\TaiLieu\QLDA\Movie_Ticket_Booking_Website1\backend\Services\Booking\Booking.ApplicationService\obj\Debug\net8.0\ref\Booking.ApplicationService.dll

@@ -1,0 +1,14 @@
+ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  li {
+    margin-bottom: 20px;
+    color: #ffcc00;
+  }
+  
+  div {
+    margin-top: 5px;
+  }
+  

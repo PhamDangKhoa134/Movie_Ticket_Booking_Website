@@ -1,0 +1,112 @@
+.payment-page {
+    display: flex;
+    justify-content: space-between;
+    background-color: #1c1c1e;
+    color: white;
+    padding: 20px;
+    border-radius: 10px;
+    font-family: Arial, sans-serif;
+    width: 90%;
+    margin-left: 5%;
+}
+
+.info-section {
+    width: 60%;
+}
+
+.movie-info, .payment-info {
+    background-color: #29292b;
+    padding: 15px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+}
+
+.movie-info h2, .payment-info h2 {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.qr-section {
+    width: 35%;
+    background-color: #29292b;
+    padding: 15px;
+    border-radius: 10px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.qr-section h2 {
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+.qr-code img {
+    width: 150px;
+    height: 150px;
+    margin-bottom: 20px;
+}
+
+.order-info p {
+    font-size: 14px;
+    margin: 5px 0;
+}
+
+
+
+/* Custom styling for Table to match the background */
+table {
+    width: 100%;
+    background-color: #29292b; /* Same background color as the sections */
+    color: white; /* Text color remains white */
+    border-radius: 10px;
+    border-collapse: collapse;
+    margin-top: 10px;
+}
+
+th, td {
+    padding: 10px;
+    text-align: left;
+}
+
+th {
+    font-size: 16px;
+    color: #f39c12; /* Make table header text color golden */
+}
+
+td {
+    font-size: 14px;
+    color: white;
+}
+
+tbody tr:nth-child(even) {
+    background-color: #353536; /* Slightly lighter shade for alternating rows */
+}
+
+tbody tr:hover {
+    background-color: #3a3a3c; /* Highlight row on hover */
+}
+
+/* CSS cho bảng */
+.table-custom {
+    background-color: black;  /* Nền đen */
+    color: white;  /* Chữ trắng */
+    border: none;  /* Không viền */
+}
+
+/* CSS cho các tiêu đề của bảng */
+.table-custom th {
+    background-color: #333;  /* Nền xám cho tiêu đề cột */
+    color: white;  /* Chữ trắng */
+}
+
+/* CSS cho các ô dữ liệu */
+.table-custom td {
+    background-color: black;  /* Nền đen cho các ô dữ liệu */
+}
+
+.table-custom1 td:nth-child(2) {
+    text-align: right; /* Căn nội dung sang bên phải */
+}

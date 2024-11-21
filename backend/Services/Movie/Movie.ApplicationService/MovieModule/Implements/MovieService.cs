@@ -5,6 +5,7 @@ using Movie.ApplicationService.MovieModule.Abstracts;
 using Movie.Domain;
 using Movie.Dtos;
 using Movie.Infrastructure;
+using Shared.ApplicationService;
 using System;
 using System.Collections.Generic;
 using System.Diagnostics.Metrics;
@@ -109,8 +110,9 @@ namespace Movie.ApplicationService.MovieModule.Implements
         }
 
 
-        public void UpdateMovie(UpdateMovieDto input)
+        public async void UpdateMovie(UpdateMovieDto input)
         {
+
             var findMovie = FindMovie(input.Id);
             findMovie.Name = input.Name;
             findMovie.Country = input.Country;
@@ -120,6 +122,50 @@ namespace Movie.ApplicationService.MovieModule.Implements
             findMovie.Director = input.Director;
             findMovie.Description = input.Description;
             findMovie.CensorId = input.CensorId;
+
+            // Kiểm tra và cập nhật ảnh phim
+            //if (input.MovieImg.Length > 0)
+            //{
+            //    var movieImgPath = Path.Combine(Directory.GetCurrentDirectory(), "wwwroot", "MovieImages", input.MovieImg.FileName);
+
+            //    // Kiểm tra nếu ảnh đã tồn tại trong thư mục
+            //    if (!File.Exists(movieImgPath))
+            //    {
+            //        using (var stream = System.IO.File.Create(movieImgPath))
+            //        {
+            //            await input.MovieImg.CopyToAsync(stream);
+            //        }
+            //    }
+
+            //    findMovie.MovieImage = "/MovieImages/" + input.MovieImg.FileName;
+            //}
+            //else
+            //{
+            //    findMovie.MovieImage = string.Empty;
+            //}
+
+            //// Kiểm tra và cập nhật ảnh nền
+            //if (input.BackgroundImg.Length > 0)
+            //{
+            //    var backgroundImgPath = Path.Combine(Directory.GetCurrentDirectory(), "wwwroot", "BackgroundImages", input.BackgroundImg.FileName);
+
+            //    // Kiểm tra nếu ảnh đã tồn tại trong thư mục
+            //    if (!File.Exists(backgroundImgPath))
+            //    {
+            //        using (var stream = System.IO.File.Create(backgroundImgPath))
+            //        {
+            //            await input.BackgroundImg.CopyToAsync(stream);
+            //        }
+            //    }
+
+            //    findMovie.BackgroundImage = "/BackgroundImages/" + input.BackgroundImg.FileName;
+            //}
+            //else
+            //{
+            //    findMovie.BackgroundImage = string.Empty;
+            //}
+
+            // Lưu thay đổi vào cơ sở dữ liệu
             _dbContext.SaveChanges();
         }
 
@@ -159,6 +205,55 @@ namespace Movie.ApplicationService.MovieModule.Implements
                 CensorId = findMovie.CensorId,
                 MovieImage = findMovie.MovieImage,
                 BackgroundImage = findMovie.BackgroundImage,
+            };
+        }
+
+        public PageResultDto<MovieDto> GetAll(FilterDto input)
+        {
+            var result = new PageResultDto<MovieDto>();
+            var query = _dbContext.Movies.Where(e =>
+                string.IsNullOrEmpty(input.Keyword)
+                || e.Name.ToLower().Contains(input.Keyword.ToLower())
+            );
+
+            result.TotalMovie = query.Count();
+            query = query
+                .OrderByDescending(s => s.Name) 
+                .ThenByDescending(s => s.Id)
+                .Skip(input.Skip())
+                .Take(input.PageSize);
+
+            result.Movies = query
+                .Select(s => new MovieDto
+                {
+                    Id = s.Id,
+                    Name= s.Name,
+                    Country = s.Country,
+                    Category = s.Category,
+                    Description = s.Description,
+                    Duration = s.Duration,
+                    Actor = s.Actor,
+                    Director = s.Director,
+                    CensorId= s.CensorId,
+                    MovieImage = s.MovieImage,
+                    BackgroundImage = s.BackgroundImage,
+                })
+                .ToList();
+            return result;
+        }
+
+        CensorDto IMovieService.GetIdCensor(int id)
+        {
+            var findCensor = _dbContext.Censors.FirstOrDefault(p => p.Id == id);
+            if (findCensor == null)
+            {
+                throw new Exception("Không tìm thấy kiểm định cần tìm");
+            }
+            return new CensorDto
+            {
+                Id = findCensor.Id,
+                Name = findCensor.Name,
+                Description = findCensor.Description,
             };
         }
     }

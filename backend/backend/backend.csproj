@@ -8,21 +8,21 @@
 
   <ItemGroup>
     <PackageReference Include="BCrypt.Net-Next" Version="4.0.3" />
+    <PackageReference Include="Microsoft.AspNetCore.Authentication.JwtBearer" Version="8.0.10" />
     <PackageReference Include="Microsoft.AspNetCore.Identity" Version="2.2.0" />
-    <PackageReference Include="Swashbuckle.AspNetCore" Version="6.4.0" />
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="6.9.0" />
 	  <PackageReference Include="Microsoft.EntityFrameworkCore" Version="8.0.8" />
 	  <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="8.0.8" />
 	  <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="8.0.8">
 		  <PrivateAssets>all</PrivateAssets>
 		  <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
 	  </PackageReference>
+	  <PackageReference Include="System.IdentityModel.Tokens.Jwt" Version="8.2.0" />
   </ItemGroup>
 
   <ItemGroup>
     <ProjectReference Include="..\Services\Auth\Auth.ApplicationService\Auth.ApplicationService.csproj" />
     <ProjectReference Include="..\Services\Auth\Auth.Dtos\Auth.Dtos.csproj" />
-    <ProjectReference Include="..\Services\Booking\Booking.ApplicationService\Booking.ApplicationService.csproj" />
-    <ProjectReference Include="..\Services\Booking\Booking.Dtos\Booking.Dtos.csproj" />
     <ProjectReference Include="..\Services\Cinema\Cinema.ApplicationService\Cinema.ApplicationService.csproj" />
     <ProjectReference Include="..\Services\Cinema\Cinema.Dtos\Cinema.Dtos.csproj" />
     <ProjectReference Include="..\Services\Movie\Movie.ApplicationService\Movie.ApplicationService.csproj" />

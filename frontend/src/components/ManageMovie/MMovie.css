@@ -1,0 +1,63 @@
+.containerr {
+
+    width: 75%;
+    margin-left: 13%;
+    height: 100vh;
+}
+
+/* Định kiểu bảng */
+.table-cus {
+    background-color: black;
+    color: white;
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.table-cus th, .table-cus td {
+    text-align: left;
+    border: 1px solid white;
+    padding: 8px;
+}
+
+.table-cus th:first-child, .table-cus td:first-child {
+    width: 45%;
+}
+
+.table-cus th:nth-child(2), .table-cus td:nth-child(2),
+.table-cus th:nth-child(3), .table-cus td:nth-child(3) {
+    width: 20%;
+}
+
+.table-cus th:last-child, .table-cus td:last-child {
+    width: 15%;
+}
+
+/* Định kiểu phân trang */
+.pagination {
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.pagination .page-item {
+    background-color: black;
+    color: white;
+}
+
+.pagination .page-item.active .page-link {
+    background-color: white;
+    color: black;
+    font-weight: bold;
+}
+
+.pagination .page-item .page-link {
+    background-color: black;
+    color: white;
+    border: 1px solid white;
+    padding: 5px 10px;
+    margin: 0 2px;
+}
+
+.pagination .page-item .page-link:hover {
+    background-color: white;
+    color: black;
+}

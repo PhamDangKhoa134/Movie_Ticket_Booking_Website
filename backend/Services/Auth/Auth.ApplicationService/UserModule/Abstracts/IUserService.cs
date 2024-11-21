@@ -1,4 +1,6 @@
-﻿using Auth.Dtos;
+﻿using Auth.ApplicationService.Common;
+using Auth.Dtos;
+using Shared.ApplicationService;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -13,7 +15,9 @@ namespace Auth.ApplicationService.UserModule.Abstracts
         void DeleteUser(int id);
         List<UserDto> GetAllUser();
         UserDto GetIdUser(int id);
-        UserDto UpdateUser(UpdateUserDto input);
+        string LoginUser(LoginDto input);
+        void UpdateUser(UpdateUserDto input);
         bool VerifyPassword(string email, string password);
+        PageResultDto<UserDto> GetAll(FilterDto input);
     }
 }

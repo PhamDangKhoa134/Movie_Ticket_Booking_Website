@@ -7,6 +7,10 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.Mvc" Version="2.2.0" />
+  </ItemGroup>
+
+  <ItemGroup>
     <ProjectReference Include="..\..\Movie\Movie.Dmain\Movie.Domain.csproj" />
     <ProjectReference Include="..\..\Movie\Movie.Dtos\Movie.Dtos.csproj" />
   </ItemGroup>

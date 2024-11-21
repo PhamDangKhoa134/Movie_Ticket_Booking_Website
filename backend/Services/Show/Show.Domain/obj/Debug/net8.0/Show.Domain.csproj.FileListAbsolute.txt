@@ -10,3 +10,7 @@ C:\TaiLieu\QLDA\Movie_Ticket_Booking_Website\backend\Services\Show\Show.Domain\o
 C:\TaiLieu\QLDA\Movie_Ticket_Booking_Website\backend\Services\Show\Show.Domain\obj\Debug\net8.0\refint\Show.Domain.dll
 C:\TaiLieu\QLDA\Movie_Ticket_Booking_Website\backend\Services\Show\Show.Domain\obj\Debug\net8.0\Show.Domain.pdb
 C:\TaiLieu\QLDA\Movie_Ticket_Booking_Website\backend\Services\Show\Show.Domain\obj\Debug\net8.0\ref\Show.Domain.dll
+C:\TaiLieu\QLDA\Movie_Ticket_Booking_Website\backend\Services\Show\Show.Domain\bin\Debug\net8.0\Contstant.dll
+C:\TaiLieu\QLDA\Movie_Ticket_Booking_Website\backend\Services\Show\Show.Domain\bin\Debug\net8.0\Contstant.pdb
+C:\TaiLieu\QLDA\Movie_Ticket_Booking_Website\backend\Services\Show\Show.Domain\obj\Debug\net8.0\Show.Domain.csproj.AssemblyReference.cache
+C:\TaiLieu\QLDA\Movie_Ticket_Booking_Website\backend\Services\Show\Show.Domain\obj\Debug\net8.0\Show.Dom.1139F0A9.Up2Date

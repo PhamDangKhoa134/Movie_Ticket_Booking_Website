@@ -5,6 +5,10 @@
       "PackagePath": "staticwebassets\\BackgroundImages\\0017896.jpg"
     },
     {
+      "Id": "C:\\TaiLieu\\QLDA\\Movie_Ticket_Booking_Website\\backend\\backend\\wwwroot\\BackgroundImages\\0017898.jpg",
+      "PackagePath": "staticwebassets\\BackgroundImages\\0017898.jpg"
+    },
+    {
       "Id": "C:\\TaiLieu\\QLDA\\Movie_Ticket_Booking_Website\\backend\\backend\\wwwroot\\BackgroundImages\\0017900.jpg",
       "PackagePath": "staticwebassets\\BackgroundImages\\0017900.jpg"
     },
@@ -21,8 +25,16 @@
       "PackagePath": "staticwebassets\\BackgroundImages\\0017908.jpg"
     },
     {
+      "Id": "C:\\TaiLieu\\QLDA\\Movie_Ticket_Booking_Website\\backend\\backend\\wwwroot\\BackgroundImages\\0017910.jpg",
+      "PackagePath": "staticwebassets\\BackgroundImages\\0017910.jpg"
+    },
+    {
       "Id": "C:\\TaiLieu\\QLDA\\Movie_Ticket_Booking_Website\\backend\\backend\\wwwroot\\BackgroundImages\\0017941.jpg",
       "PackagePath": "staticwebassets\\BackgroundImages\\0017941.jpg"
+    },
+    {
+      "Id": "C:\\TaiLieu\\QLDA\\Movie_Ticket_Booking_Website\\backend\\backend\\wwwroot\\BackgroundImages\\0017944.jpg",
+      "PackagePath": "staticwebassets\\BackgroundImages\\0017944.jpg"
     },
     {
       "Id": "C:\\TaiLieu\\QLDA\\Movie_Ticket_Booking_Website\\backend\\backend\\wwwroot\\BackgroundImages\\0017958.jpg",
@@ -57,12 +69,20 @@
       "PackagePath": "staticwebassets\\MovieImages\\0017876_0.jpg"
     },
     {
+      "Id": "C:\\TaiLieu\\QLDA\\Movie_Ticket_Booking_Website\\backend\\backend\\wwwroot\\MovieImages\\0017887_0.jpg",
+      "PackagePath": "staticwebassets\\MovieImages\\0017887_0.jpg"
+    },
+    {
       "Id": "C:\\TaiLieu\\QLDA\\Movie_Ticket_Booking_Website\\backend\\backend\\wwwroot\\MovieImages\\0017889_0.jpg",
       "PackagePath": "staticwebassets\\MovieImages\\0017889_0.jpg"
     },
     {
       "Id": "C:\\TaiLieu\\QLDA\\Movie_Ticket_Booking_Website\\backend\\backend\\wwwroot\\MovieImages\\0017893_0.jpg",
       "PackagePath": "staticwebassets\\MovieImages\\0017893_0.jpg"
+    },
+    {
+      "Id": "C:\\TaiLieu\\QLDA\\Movie_Ticket_Booking_Website\\backend\\backend\\wwwroot\\MovieImages\\0017912_0.jpg",
+      "PackagePath": "staticwebassets\\MovieImages\\0017912_0.jpg"
     },
     {
       "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.backend.Microsoft.AspNetCore.StaticWebAssets.props",

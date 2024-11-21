@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "WMR17wzKNtcvb8o/Hs+oakcdNEF1wiZS7r4+Hj/SW3Y=",
+  "Hash": "Z8inWPypabKqD1lpitUrFIKRArIpzPWD1El07wxMuOM=",
   "Source": "backend",
   "BasePath": "_content/backend",
   "Mode": "Default",
@@ -34,6 +34,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\BackgroundImages\\0017896.jpg"
+    },
+    {
+      "Identity": "C:\\TaiLieu\\QLDA\\Movie_Ticket_Booking_Website\\backend\\backend\\wwwroot\\BackgroundImages\\0017898.jpg",
+      "SourceId": "backend",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\TaiLieu\\QLDA\\Movie_Ticket_Booking_Website\\backend\\backend\\wwwroot\\",
+      "BasePath": "_content/backend",
+      "RelativePath": "BackgroundImages/0017898.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\BackgroundImages\\0017898.jpg"
     },
     {
       "Identity": "C:\\TaiLieu\\QLDA\\Movie_Ticket_Booking_Website\\backend\\backend\\wwwroot\\BackgroundImages\\0017900.jpg",
@@ -112,6 +131,25 @@
       "OriginalItemSpec": "wwwroot\\BackgroundImages\\0017908.jpg"
     },
     {
+      "Identity": "C:\\TaiLieu\\QLDA\\Movie_Ticket_Booking_Website\\backend\\backend\\wwwroot\\BackgroundImages\\0017910.jpg",
+      "SourceId": "backend",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\TaiLieu\\QLDA\\Movie_Ticket_Booking_Website\\backend\\backend\\wwwroot\\",
+      "BasePath": "_content/backend",
+      "RelativePath": "BackgroundImages/0017910.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\BackgroundImages\\0017910.jpg"
+    },
+    {
       "Identity": "C:\\TaiLieu\\QLDA\\Movie_Ticket_Booking_Website\\backend\\backend\\wwwroot\\BackgroundImages\\0017941.jpg",
       "SourceId": "backend",
       "SourceType": "Discovered",
@@ -129,6 +167,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\BackgroundImages\\0017941.jpg"
+    },
+    {
+      "Identity": "C:\\TaiLieu\\QLDA\\Movie_Ticket_Booking_Website\\backend\\backend\\wwwroot\\BackgroundImages\\0017944.jpg",
+      "SourceId": "backend",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\TaiLieu\\QLDA\\Movie_Ticket_Booking_Website\\backend\\backend\\wwwroot\\",
+      "BasePath": "_content/backend",
+      "RelativePath": "BackgroundImages/0017944.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\BackgroundImages\\0017944.jpg"
     },
     {
       "Identity": "C:\\TaiLieu\\QLDA\\Movie_Ticket_Booking_Website\\backend\\backend\\wwwroot\\BackgroundImages\\0017958.jpg",
@@ -283,6 +340,25 @@
       "OriginalItemSpec": "wwwroot\\MovieImages\\0017876_0.jpg"
     },
     {
+      "Identity": "C:\\TaiLieu\\QLDA\\Movie_Ticket_Booking_Website\\backend\\backend\\wwwroot\\MovieImages\\0017887_0.jpg",
+      "SourceId": "backend",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\TaiLieu\\QLDA\\Movie_Ticket_Booking_Website\\backend\\backend\\wwwroot\\",
+      "BasePath": "_content/backend",
+      "RelativePath": "MovieImages/0017887_0.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\MovieImages\\0017887_0.jpg"
+    },
+    {
       "Identity": "C:\\TaiLieu\\QLDA\\Movie_Ticket_Booking_Website\\backend\\backend\\wwwroot\\MovieImages\\0017889_0.jpg",
       "SourceId": "backend",
       "SourceType": "Discovered",
@@ -319,6 +395,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\MovieImages\\0017893_0.jpg"
+    },
+    {
+      "Identity": "C:\\TaiLieu\\QLDA\\Movie_Ticket_Booking_Website\\backend\\backend\\wwwroot\\MovieImages\\0017912_0.jpg",
+      "SourceId": "backend",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\TaiLieu\\QLDA\\Movie_Ticket_Booking_Website\\backend\\backend\\wwwroot\\",
+      "BasePath": "_content/backend",
+      "RelativePath": "MovieImages/0017912_0.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\MovieImages\\0017912_0.jpg"
     }
   ]
 }

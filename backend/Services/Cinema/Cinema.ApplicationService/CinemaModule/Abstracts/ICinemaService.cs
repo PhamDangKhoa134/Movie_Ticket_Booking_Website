@@ -14,5 +14,7 @@ namespace Cinema.ApplicationService.CinemaModule.Abstracts
         void UpdateTypeSeat(UpdateTypeSeatDto input);
         List<TypeSeatDto> GetAllTypeSeat();
         TypeSeatDto GetIdTypeSeat(int id);
+        List<CinemaHallSeatDto> GetAllSeatByCinema(int id);
+        CinemaHallSeatDto GetIdSeat(int id);
     }
 }

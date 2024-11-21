@@ -1,0 +1,38 @@
+/* Login.css */
+
+.custom-modal .modal-content {
+    background-color: black;
+    color: white;
+    border: none;
+  }
+  
+  .custom-modal .modal-header,
+  .custom-modal .modal-footer {
+    background-color: black;
+    border: none;
+  }
+  
+  .custom-modal .modal-title {
+    color: white;
+  }
+  
+  .custom-modal .form-label {
+    color: white;
+  }
+  
+  .custom-modal .form-control {
+    background-color: #333;
+    color: white;
+    border: 1px solid #555;
+  }
+  
+  .custom-modal .login-button {
+    width: 100%;
+    background-color: red;
+    border: none;
+    color: white;
+  }
+  .custom-modal .modal-header .btn-close {
+    filter: invert(100%);
+}
+  

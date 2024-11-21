@@ -1,6 +1,7 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using Movie.ApplicationService.MovieModule.Abstracts;
 using Movie.Dtos;
+using Shared.ApplicationService;
 
 namespace backend.Controllers
 {
@@ -20,7 +21,7 @@ namespace backend.Controllers
         }
 
         [HttpPut("update")]
-        public IActionResult UpdateMovie(UpdateMovieDto input)
+        public IActionResult UpdateMovie([FromForm] UpdateMovieDto input)
         {
             _movieService.UpdateMovie(input);
             return Ok();
@@ -45,6 +46,29 @@ namespace backend.Controllers
         {
 
             return Ok(_movieService.GetIdMovie(id));
+        }
+
+        [HttpGet("get-all-movie-page")]
+        public IActionResult GetAllPage([FromQuery] FilterDto input)
+        {
+            try
+            {
+                return Ok(_movieService.GetAll(input));
+            }
+            catch (Exception ex)
+            {
+                return BadRequest(new ApiResponse
+                {
+                    Message = ex.Message
+                });
+            }
+        }
+
+        [HttpGet("get-censor/{id}")]
+        public IActionResult GetIdCensor(int id)
+        {
+
+            return Ok(_movieService.GetIdCensor(id));
         }
     }
 }

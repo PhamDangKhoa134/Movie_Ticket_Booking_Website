@@ -7,14 +7,30 @@
   "targets": {
     ".NETCoreApp,Version=v8.0": {
       "Show.Domain/1.0.0": {
+        "dependencies": {
+          "Contstant": "1.0.0"
+        },
         "runtime": {
           "Show.Domain.dll": {}
+        }
+      },
+      "Contstant/1.0.0": {
+        "runtime": {
+          "Contstant.dll": {
+            "assemblyVersion": "1.0.0",
+            "fileVersion": "1.0.0.0"
+          }
         }
       }
     }
   },
   "libraries": {
     "Show.Domain/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Contstant/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

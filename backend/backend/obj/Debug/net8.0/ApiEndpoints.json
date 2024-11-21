@@ -71,6 +71,38 @@
     ]
   },
   {
+    "ContainingType": "backend.Controllers.ShowController",
+    "Method": "CreateBooking",
+    "RelativePath": "create-booking",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "input",
+        "Type": "Show.Dtos.CreateBookingDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "backend.Controllers.ShowController",
+    "Method": "CreateShow",
+    "RelativePath": "create-show",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "input",
+        "Type": "Show.Dtos.CreateShowDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
     "ContainingType": "backend.Controllers.AuthController",
     "Method": "CreateUser",
     "RelativePath": "create-user",
@@ -143,6 +175,38 @@
     "ReturnTypes": []
   },
   {
+    "ContainingType": "backend.Controllers.ShowController",
+    "Method": "DeleteBooking",
+    "RelativePath": "delete-booking/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "backend.Controllers.ShowController",
+    "Method": "DeleteShow",
+    "RelativePath": "delete-show/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
     "ContainingType": "backend.Controllers.AuthController",
     "Method": "DeleteUser",
     "RelativePath": "delete-user/{id}",
@@ -201,6 +265,126 @@
     "ReturnTypes": []
   },
   {
+    "ContainingType": "backend.Controllers.ShowController",
+    "Method": "GetAllBooking",
+    "RelativePath": "get-all-booking",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "backend.Controllers.MovieController",
+    "Method": "GetAllPage",
+    "RelativePath": "get-all-movie-page",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "pageSize",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "pageIndex",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "keyword",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "backend.Controllers.CinemaController",
+    "Method": "GetAllSeatByCinema",
+    "RelativePath": "get-all-seat-by-cinema/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "backend.Controllers.ShowController",
+    "Method": "GetAllShow",
+    "RelativePath": "get-all-show",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "backend.Controllers.ShowController",
+    "Method": "GetAllShowByIdMovie",
+    "RelativePath": "get-all-show-by-movieId/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "backend.Controllers.ShowController",
+    "Method": "ShowCinema",
+    "RelativePath": "get-all-show-cinema/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "backend.Controllers.ShowController",
+    "Method": "GetAllShowPage",
+    "RelativePath": "get-all-show-page",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "pageSize",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "pageIndex",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "keyword",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
     "ContainingType": "backend.Controllers.CinemaController",
     "Method": "GetAllTypeSeat",
     "RelativePath": "get-all-type-seat",
@@ -218,6 +402,96 @@
     "IsController": true,
     "Order": 0,
     "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "backend.Controllers.AuthController",
+    "Method": "GetAllPage",
+    "RelativePath": "get-all-user-page",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "pageSize",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "pageIndex",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "keyword",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "backend.Controllers.ShowController",
+    "Method": "GetIdBooking",
+    "RelativePath": "get-booking/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "backend.Controllers.MovieController",
+    "Method": "GetIdCensor",
+    "RelativePath": "get-censor/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "backend.Controllers.CinemaController",
+    "Method": "GetIdSeat",
+    "RelativePath": "get-seat/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "backend.Controllers.ShowController",
+    "Method": "GetIdShow",
+    "RelativePath": "get-show/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
     "ReturnTypes": []
   },
   {
@@ -290,6 +564,43 @@
     "ReturnTypes": []
   },
   {
+    "ContainingType": "backend.Controllers.AuthController",
+    "Method": "LoginUser",
+    "RelativePath": "login-auth",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Email",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Password",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "backend.Controllers.ShowController",
+    "Method": "SendEmail",
+    "RelativePath": "send",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "emailDto",
+        "Type": "Show.Dtos.EmailDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
     "ContainingType": "backend.Controllers.MovieController",
     "Method": "UpdateMovie",
     "RelativePath": "update",
@@ -356,6 +667,59 @@
     "ReturnTypes": []
   },
   {
+    "ContainingType": "backend.Controllers.ShowController",
+    "Method": "UpdateBooking",
+    "RelativePath": "update-booking",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "input",
+        "Type": "Show.Dtos.UpdateBookingDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "backend.Controllers.ShowController",
+    "Method": "UpdateShow",
+    "RelativePath": "update-show",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "input",
+        "Type": "Show.Dtos.UpdateShowDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "backend.Controllers.ShowController",
+    "Method": "UpdateShowCinema",
+    "RelativePath": "update-show-cinema",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "CinemaHSId",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "BookingId",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
     "ContainingType": "backend.Controllers.AuthController",
     "Method": "UpdateUser",
     "RelativePath": "update-user",
@@ -379,28 +743,8 @@
         "IsRequired": false
       },
       {
-        "Name": "Phone",
-        "Type": "System.String",
-        "IsRequired": false
-      },
-      {
-        "Name": "Email",
-        "Type": "System.String",
-        "IsRequired": false
-      },
-      {
-        "Name": "Password",
-        "Type": "System.String",
-        "IsRequired": false
-      },
-      {
         "Name": "Address",
         "Type": "System.String",
-        "IsRequired": false
-      },
-      {
-        "Name": "RoleId",
-        "Type": "System.Int32",
         "IsRequired": false
       }
     ],
