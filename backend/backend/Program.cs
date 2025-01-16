@@ -1,6 +1,7 @@
 ﻿using Auth.ApplicationService.Startup;
 using Auth.Domain;
 using Cinema.ApplicationService.Startup;
+using HMS.Hol.ApplicationService.Common;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.IdentityModel.Tokens;
 using Movie.ApplicationService.Startup;
@@ -47,6 +48,7 @@ namespace backend
             builder.Services.AddControllers();
             builder.Services.AddEndpointsApiExplorer();
             builder.Services.AddSwaggerGen();
+            builder.Services.AddScoped<Utils>();
 
             // Configure Movie
             builder.ConfigureMovie(typeof(Program).Namespace);

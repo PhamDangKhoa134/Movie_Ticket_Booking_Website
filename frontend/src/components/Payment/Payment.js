@@ -12,7 +12,7 @@ const Payment = () => {
 
     const cinemaId = queryParams.get('cinemaId');
     const showId = queryParams.get('showId');
-    const price = queryParams.get('price');
+    const price = queryParams.get('price') * 1000;
     const seats = queryParams.get('seats')?.split(',');
 
     const [showDetails, setShowDetails] = useState({});
@@ -175,7 +175,7 @@ const Payment = () => {
             - Ghế: ${seatLocations.join(', ')}
             - Ngày chiếu: ${new Date(showDetails.startTime).toLocaleDateString()}
             - Giờ chiếu: ${formatTime(showDetails.startTime)}
-            - Tổng tiền: ${price}.000đ
+            - Tổng tiền: ${price}đ
             
             Cảm ơn quý khách đã sử dụng dịch vụ của chúng tôi.`,
             });
@@ -185,9 +185,36 @@ const Payment = () => {
                 throw new Error('Không thể gửi, vui lòng thử lại.');
             }
     
-            // 3. Hiển thị thông báo thành công
-            alert('Thanh toán thành công! Vé đã được đặt. Email xác nhận đã được gửi.');
-            window.location.href = '/'; // Chuyển hướng về trang chủ
+            // // 3. Hiển thị thông báo thành công
+            // alert('Thanh toán thành công! Vé đã được đặt. Email xác nhận đã được gửi.');
+            // window.location.href = '/'; // Chuyển hướng về trang chủ
+
+            const response = await fetch("http://localhost:5122/api/Payment/create-payment-url", {
+                method: "POST",
+                headers: {
+                  "Content-Type": "application/json",
+                },
+                body: JSON.stringify({
+                  OrderId: bookingId, // Đổi thành giá trị thực tế
+                  Amount: price, // Số tiền
+                  OrderDesc: formUserData.Email, // Email
+                  OrderType: "vnpay", // Loại đơn hàng
+                //   Email: formUserData.Email,
+                //   Seat: seatLocations.join(', '),
+                }),
+              });
+              if (!response.ok) {
+                throw new Error("Không thể tạo URL thanh toán");
+              }
+        
+              const data = await response.json();
+        
+              // Kiểm tra nếu có `paymentUrl`
+              if (data.paymentUrl) {
+                window.location.href = data.paymentUrl; // Điều hướng đến URL trả về
+              } else {
+                throw new Error("URL thanh toán không tồn tại");
+              }
         } catch (error) {
             console.error('Lỗi khi thanh toán:', error.response?.data || error.message);
             alert(`Lỗi khi thanh toán: ${error.response?.data?.message || error.message}`);
@@ -230,7 +257,7 @@ const Payment = () => {
                             <tr>
                             <td>Ghế ({seatLocations.join(', ')})</td>
                             <td>{seats?.length || 0}</td>
-                            <td>{price}.000đ</td>
+                            <td>{price}đ</td>
                             </tr>
                         </tbody>
                     </Table>

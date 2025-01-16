@@ -16,6 +16,7 @@ import Payment from "./components/Payment/Payment";
 import ProtectedRoute from "./ProtectedRoute";
 import ProtectedRouteAuth from "./ProtectedRouteAuth";
 import MUser from "./components/ManageUser/MUser";
+import ReturnPayment from "./components/Payment/ReturnPayment";
 
 
 function App() {
@@ -42,6 +43,10 @@ function App() {
           <Route
             path="/payment"
             element={<ProtectedRoute element={Payment} />}
+          />
+          <Route
+            path="/return-payment"
+            element={<ProtectedRoute element={ReturnPayment} />}
           />
           <Route path="*" element={<h1>404 Not Found</h1>} />
         </Routes>

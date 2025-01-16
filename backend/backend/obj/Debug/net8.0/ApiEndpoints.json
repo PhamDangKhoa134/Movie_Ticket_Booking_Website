@@ -1,5 +1,92 @@
 [
   {
+    "ContainingType": "backend.Controllers.PaymentController",
+    "Method": "CreatePaymentUrl",
+    "RelativePath": "api/Payment/create-payment-url",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "HMS.Hol.ApplicationService.Common.VnPayRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "backend.Controllers.PaymentController",
+    "Method": "ReturnVnpayUrl",
+    "RelativePath": "api/Payment/return-vnpay-url",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "vnp_Amount",
+        "Type": "System.Decimal",
+        "IsRequired": false
+      },
+      {
+        "Name": "vnp_BankCode",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "vnp_BankTranNo",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "vnp_CardType",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "vnp_OrderInfo",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "vnp_PayDate",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "vnp_ResponseCode",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "vnp_TmnCode",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "vnp_TransactionNo",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "vnp_TransactionStatus",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "vnp_TxnRef",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "vnp_SecureHash",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
     "ContainingType": "backend.Controllers.MovieController",
     "Method": "CreateMovie",
     "RelativePath": "create",
